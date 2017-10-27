@@ -7,6 +7,3 @@ db.movieDetails.find({ "tomato.meter": { $gte: 95 }, runtime: { $gt: 180 } })
 db.movieDetails.find({ rated: { $ne: "UNRATED" } }).count()
 
 db.movieDetails.find({ rated: { $in: ["G", "PG"] } }).pretty()
-
-
-
