@@ -12,20 +12,21 @@ MongoClient.connect('mongodb://localhost:27017/crunchbase', function(err, db) {
     console.log("Successfully connected to MongoDB.");
 
     var query = queryDocument(options);
-    var projection = {"_id": 0,
-                      "name": 1,
-                      "founded_year": 1,
-                      "number_of_employees": 1,
-                      "ipo.valuation_amount": 1,
-                      "offices.country_code": 1};
+    var projection = {"_id": 0, "name": 1, "founded_year": 1,
+                      "number_of_employees": 1};
 
-    var cursor = db.collection('companies').find(query, projection);
+    var cursor = db.collection('companies').find(query);
+    cursor.project(projection);
+    // cursor.sort({founded_year: 1});
+    cursor.sort([["founded_year", 1], ["number_of_employees", -1]]); // using arrays because the order in which the sorts are applied is important
+
     var numMatches = 0;
 
     cursor.forEach(
         function(doc) {
             numMatches = numMatches + 1;
-            console.log( doc );
+            console.log(doc.name + "\n\tfounded " + doc.founded_year +
+                        "\n\t" + doc.number_of_employees + " employees");
         },
         function(err) {
             assert.equal(err, null);
@@ -40,8 +41,6 @@ MongoClient.connect('mongodb://localhost:27017/crunchbase', function(err, db) {
 
 function queryDocument(options) {
 
-    console.log(options);
-
     var query = {
         "founded_year": {
             "$gte": options.firstYear,
@@ -51,18 +50,6 @@ function queryDocument(options) {
 
     if ("employees" in options) {
         query.number_of_employees = { "$gte": options.employees };
-    }
-
-    if ("ipo" in options) {
-        if (options.ipo == "yes") {
-            query["ipo.valuation_amount"] = {"$exists": true, "$ne": null};
-        } else if (options.ipo == "no") {
-            query["ipo.valuation_amount"] = null;
-        }
-    }
-
-    if ("country" in options) { // use dot notation here to access documents embedded in arrays, as MongoDB treats each entry as if there were multiple copies of the documents, each of which has a single documents as an embedded document value for the offices field
-      query["offices.country_code"] = options.country
     }
 
     return query;
@@ -75,9 +62,7 @@ function commandLineOptions() {
     var cli = commandLineArgs([
         { name: "firstYear", alias: "f", type: Number },
         { name: "lastYear", alias: "l", type: Number },
-        { name: "employees", alias: "e", type: Number },
-        { name: "ipo", alias: "i", type: String },
-        { name: "country", alias: "c", type: String }
+        { name: "employees", alias: "e", type: Number }
     ]);
 
     var options = cli.parse()
