@@ -125,12 +125,7 @@ function queryDocument(options) {
            I urge you to test your query in the Mongo shell first and adapt it to fit
            the syntax for constructing query documents in this application.
         */
-        // query[
-        //   {"$or": [
-        //     {"overview": {"$regex": options.overview, "$options": "i"}},
-        //     {"tag_list": {"$regex": options.overview, "$options": "i"}}
-        //   ]}
-        // ]
+        
         query["$or"] = [
           {"overview": {"$regex": options.overview, "$options": "i"}},
           {"tag_list": {"$regex": options.overview, "$options": "i"}}
