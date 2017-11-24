@@ -57,3 +57,4 @@ db.companies.aggregate([
   }},
   { $sort: { avg: 1 } }
 ])
+test
