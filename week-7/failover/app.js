@@ -1,6 +1,7 @@
-var MongoClient = require('mongodb').MongoClient;
+var MongoClient = require('mongodb').MongoClient, 
+    assert = require('assert');
 
-MongoClient.connect("mongodb://localhost:30001,localhost:30002,localhost:30003/course", function(err, db) {
+MongoClient.connect("mongodb://localhost:30001,localhost:30002,localhost:30003/course?replicaSet=replica_set", function(err, db) {
     if (err) throw err;
 
     var documentNumber = 0;
