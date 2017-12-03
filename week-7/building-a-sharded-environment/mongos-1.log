@@ -1,0 +1,245 @@
+2017-12-03T21:00:57.832+0900 I CONTROL  [main] 
+2017-12-03T21:00:57.832+0900 I CONTROL  [main] ** WARNING: Access control is not enabled for the database.
+2017-12-03T21:00:57.832+0900 I CONTROL  [main] **          Read and write access to data and configuration is unrestricted.
+2017-12-03T21:00:57.832+0900 I CONTROL  [main] ** WARNING: You are running this process as the root user, which is not recommended.
+2017-12-03T21:00:57.832+0900 I CONTROL  [main] 
+2017-12-03T21:00:57.832+0900 I SHARDING [mongosMain] mongos version v3.4.10
+2017-12-03T21:00:57.832+0900 I CONTROL  [mongosMain] git version: 078f28920cb24de0dd479b5ea6c66c644f6326e9
+2017-12-03T21:00:57.832+0900 I CONTROL  [mongosMain] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-12-03T21:00:57.832+0900 I CONTROL  [mongosMain] allocator: tcmalloc
+2017-12-03T21:00:57.832+0900 I CONTROL  [mongosMain] modules: none
+2017-12-03T21:00:57.832+0900 I CONTROL  [mongosMain] build environment:
+2017-12-03T21:00:57.832+0900 I CONTROL  [mongosMain]     distmod: ubuntu1604
+2017-12-03T21:00:57.832+0900 I CONTROL  [mongosMain]     distarch: x86_64
+2017-12-03T21:00:57.832+0900 I CONTROL  [mongosMain]     target_arch: x86_64
+2017-12-03T21:00:57.832+0900 I CONTROL  [mongosMain] db version v3.4.10
+2017-12-03T21:00:57.833+0900 I CONTROL  [mongosMain] git version: 078f28920cb24de0dd479b5ea6c66c644f6326e9
+2017-12-03T21:00:57.833+0900 I CONTROL  [mongosMain] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-12-03T21:00:57.833+0900 I CONTROL  [mongosMain] allocator: tcmalloc
+2017-12-03T21:00:57.833+0900 I CONTROL  [mongosMain] modules: none
+2017-12-03T21:00:57.833+0900 I CONTROL  [mongosMain] build environment:
+2017-12-03T21:00:57.833+0900 I CONTROL  [mongosMain]     distmod: ubuntu1604
+2017-12-03T21:00:57.833+0900 I CONTROL  [mongosMain]     distarch: x86_64
+2017-12-03T21:00:57.833+0900 I CONTROL  [mongosMain]     target_arch: x86_64
+2017-12-03T21:00:57.833+0900 I CONTROL  [mongosMain] options: { processManagement: { fork: true }, sharding: { configDB: "csReplSet/localhost:57040,localhost:57041,localhost:57042" }, systemLog: { destination: "file", path: "mongos-1.log" } }
+2017-12-03T21:00:57.860+0900 I NETWORK  [mongosMain] Starting new replica set monitor for csReplSet/localhost:57040,localhost:57041,localhost:57042
+2017-12-03T21:00:57.860+0900 I SHARDING [thread1] creating distributed lock ping thread for process kris-ThinkPad-X1-Carbon-5th:27017:1512302457:-3325012620793323724 (sleeping for 30000ms)
+2017-12-03T21:00:57.860+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57041 (1 connections now open to localhost:57041 with a 5 second timeout)
+2017-12-03T21:00:57.860+0900 I NETWORK  [mongosMain] Successfully connected to localhost:57040 (1 connections now open to localhost:57040 with a 5 second timeout)
+2017-12-03T21:00:57.860+0900 I NETWORK  [shard registry reload] Successfully connected to localhost:57042 (1 connections now open to localhost:57042 with a 5 second timeout)
+2017-12-03T21:00:57.860+0900 W NETWORK  [shard registry reload] No primary detected for set csReplSet
+2017-12-03T21:00:57.860+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-03T21:00:57.861+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-03T21:00:57.861+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 1ms (2 connections now open to localhost:57040)
+2017-12-03T21:00:57.862+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (2 connections now open to localhost:57040)
+2017-12-03T21:00:58.361+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:00:58.863+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:00:59.364+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:00:59.866+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:00.368+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:00.870+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:01.372+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:01.873+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:02.374+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:02.875+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:03.376+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:03.878+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:04.380+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:04.880+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:05.381+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:05.882+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:06.384+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:06.886+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:07.388+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:07.889+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:08.391+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:08.892+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:09.394+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-03T21:01:09.895+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-03T21:01:09.896+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 1ms (3 connections now open to localhost:57040)
+2017-12-03T21:01:10.499+0900 W SHARDING [replSetDistLockPinger] pinging failed for distributed lock pinger :: caused by :: LockStateChangeFailed: findAndModify query predicate didn't match any lock document
+2017-12-03T21:01:10.500+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-03T21:01:10.500+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 0ms (1 connections now open to localhost:57042)
+2017-12-03T21:01:10.501+0900 I NETWORK  [thread2] waiting for connections on port 27017
+2017-12-03T21:01:10.588+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T21:01:10.590+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-03T21:02:10.498+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T21:02:10.565+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43002 #1 (1 connection now open)
+2017-12-03T21:02:10.565+0900 I NETWORK  [conn1] received client metadata from 127.0.0.1:43002 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:10.734+0900 I NETWORK  [conn1] Starting new replica set monitor for s0/localhost:37017,localhost:37018,localhost:37019
+2017-12-03T21:02:10.736+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37017 (1 connections now open to localhost:37017 with a 5 second timeout)
+2017-12-03T21:02:10.740+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37019 (1 connections now open to localhost:37019 with a 5 second timeout)
+2017-12-03T21:02:10.743+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37018 (1 connections now open to localhost:37018 with a 5 second timeout)
+2017-12-03T21:02:10.826+0900 I NETWORK  [conn1] Starting new replica set monitor for s1/localhost:47017,localhost:47018,localhost:47019
+2017-12-03T21:02:10.828+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47017 (1 connections now open to localhost:47017 with a 5 second timeout)
+2017-12-03T21:02:10.851+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47019 (1 connections now open to localhost:47019 with a 5 second timeout)
+2017-12-03T21:02:10.852+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47018 (1 connections now open to localhost:47018 with a 5 second timeout)
+2017-12-03T21:02:10.942+0900 I NETWORK  [conn1] Starting new replica set monitor for s2/localhost:57017,localhost:57018,localhost:57019
+2017-12-03T21:02:10.948+0900 I SHARDING [conn1] distributed lock 'school' acquired for 'enableSharding', ts : 5a23e7c2e04f6e25ca80a821
+2017-12-03T21:02:10.949+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:37017
+2017-12-03T21:02:10.949+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:37017, took 0ms (1 connections now open to localhost:37017)
+2017-12-03T21:02:10.950+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:47017
+2017-12-03T21:02:10.950+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:47017, took 0ms (1 connections now open to localhost:47017)
+2017-12-03T21:02:10.951+0900 I NETWORK  [conn1] Successfully connected to localhost:57019 (1 connections now open to localhost:57019 with a 5 second timeout)
+2017-12-03T21:02:10.963+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57017 (1 connections now open to localhost:57017 with a 5 second timeout)
+2017-12-03T21:02:10.983+0900 I NETWORK  [conn1] Successfully connected to localhost:57018 (1 connections now open to localhost:57018 with a 5 second timeout)
+2017-12-03T21:02:10.984+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57017
+2017-12-03T21:02:10.985+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57017, took 2ms (1 connections now open to localhost:57017)
+2017-12-03T21:02:10.986+0900 I SHARDING [conn1] Placing [school] on: s0
+2017-12-03T21:02:10.986+0900 I SHARDING [conn1] Enabling sharding for database [school] in config db
+2017-12-03T21:02:11.048+0900 I SHARDING [conn1] distributed lock with ts: 5a23e7c2e04f6e25ca80a821' unlocked.
+2017-12-03T21:02:11.054+0900 I NETWORK  [conn1] Successfully connected to s0/localhost:37017,localhost:37018,localhost:37019 (1 connections now open to s0/localhost:37017,localhost:37018,localhost:37019 with a 0 second timeout)
+2017-12-03T21:02:11.055+0900 I NETWORK  [conn1] Successfully connected to localhost:37017 (1 connections now open to localhost:37017 with a 0 second timeout)
+2017-12-03T21:02:11.094+0900 I COMMAND  [conn1] CMD: shardcollection: { shardCollection: "school.students", key: { student_id: 1.0 } }
+2017-12-03T21:02:11.100+0900 I SHARDING [conn1] distributed lock 'school.students' acquired for 'shardCollection', ts : 5a23e7c3e04f6e25ca80a824
+2017-12-03T21:02:11.101+0900 I SHARDING [conn1] about to log metadata event into changelog: { _id: "kris-ThinkPad-X1-Carbon-5th-2017-12-03T21:02:11.101+0900-5a23e7c3e04f6e25ca80a825", server: "kris-ThinkPad-X1-Carbon-5th", clientAddr: "127.0.0.1:43002", time: new Date(1512302531101), what: "shardCollection.start", ns: "school.students", details: { shardKey: { student_id: 1.0 }, collection: "school.students", primary: "s0:s0/localhost:37017,localhost:37018,localhost:37019", initShards: [], numChunks: 1 } }
+2017-12-03T21:02:11.105+0900 I SHARDING [conn1] going to create 1 chunk(s) for: school.students using new epoch 5a23e7c3e04f6e25ca80a826
+2017-12-03T21:02:11.200+0900 I SHARDING [conn1] about to log metadata event into changelog: { _id: "kris-ThinkPad-X1-Carbon-5th-2017-12-03T21:02:11.200+0900-5a23e7c3e04f6e25ca80a827", server: "kris-ThinkPad-X1-Carbon-5th", clientAddr: "127.0.0.1:43002", time: new Date(1512302531200), what: "shardCollection.end", ns: "school.students", details: { version: "1|0||5a23e7c3e04f6e25ca80a826" } }
+2017-12-03T21:02:11.207+0900 I SHARDING [conn1] distributed lock with ts: 5a23e7c3e04f6e25ca80a824' unlocked.
+2017-12-03T21:02:11.209+0900 I -        [conn1] end connection 127.0.0.1:43002 (1 connection now open)
+2017-12-03T21:02:16.581+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43242 #2 (1 connection now open)
+2017-12-03T21:02:16.581+0900 I NETWORK  [conn2] received client metadata from 127.0.0.1:43242 conn2: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:31.200+0900 I SHARDING [conn2] Refreshing chunks for collection school.students based on version 0|0||000000000000000000000000
+2017-12-03T21:02:31.203+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 3 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T21:02:31.204+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Connecting to localhost:37017
+2017-12-03T21:02:31.207+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Successfully connected to localhost:37017, took 3ms (1 connections now open to localhost:37017)
+2017-12-03T21:02:42.931+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Connecting to localhost:37017
+2017-12-03T21:02:42.934+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Successfully connected to localhost:37017, took 3ms (1 connections now open to localhost:37017)
+2017-12-03T21:03:10.631+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 1 connections to that host remain open
+2017-12-03T21:17:36.093+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43632 #3 (2 connections now open)
+2017-12-03T21:17:36.097+0900 I NETWORK  [conn3] received client metadata from 127.0.0.1:43632 conn3: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:17:36.102+0900 I -        [conn3] end connection 127.0.0.1:43632 (2 connections now open)
+2017-12-03T21:17:36.105+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43634 #4 (2 connections now open)
+2017-12-03T21:17:36.105+0900 I NETWORK  [conn4] received client metadata from 127.0.0.1:43634 conn4: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:17:36.107+0900 I -        [conn4] end connection 127.0.0.1:43634 (2 connections now open)
+2017-12-03T21:19:01.474+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43640 #5 (2 connections now open)
+2017-12-03T21:19:01.479+0900 I NETWORK  [conn5] received client metadata from 127.0.0.1:43640 conn5: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:19:01.483+0900 I -        [conn5] end connection 127.0.0.1:43640 (2 connections now open)
+2017-12-03T21:19:01.486+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43642 #6 (2 connections now open)
+2017-12-03T21:19:01.487+0900 I NETWORK  [conn6] received client metadata from 127.0.0.1:43642 conn6: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:19:01.489+0900 I -        [conn6] end connection 127.0.0.1:43642 (2 connections now open)
+2017-12-03T21:21:54.520+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43696 #7 (2 connections now open)
+2017-12-03T21:21:54.525+0900 I NETWORK  [conn7] received client metadata from 127.0.0.1:43696 conn7: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:21:54.530+0900 I -        [conn7] end connection 127.0.0.1:43696 (2 connections now open)
+2017-12-03T21:21:54.535+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43698 #8 (2 connections now open)
+2017-12-03T21:21:54.535+0900 I NETWORK  [conn8] received client metadata from 127.0.0.1:43698 conn8: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:21:54.538+0900 I -        [conn8] end connection 127.0.0.1:43698 (2 connections now open)
+2017-12-03T21:22:20.169+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43700 #9 (2 connections now open)
+2017-12-03T21:22:20.174+0900 I NETWORK  [conn9] received client metadata from 127.0.0.1:43700 conn9: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:22:20.179+0900 I -        [conn9] end connection 127.0.0.1:43700 (2 connections now open)
+2017-12-03T21:22:20.184+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43702 #10 (2 connections now open)
+2017-12-03T21:22:20.184+0900 I NETWORK  [conn10] received client metadata from 127.0.0.1:43702 conn10: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:22:21.871+0900 I -        [conn10] end connection 127.0.0.1:43702 (2 connections now open)
+2017-12-03T21:22:40.662+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43704 #11 (2 connections now open)
+2017-12-03T21:22:40.667+0900 I NETWORK  [conn11] received client metadata from 127.0.0.1:43704 conn11: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:22:40.672+0900 I -        [conn11] end connection 127.0.0.1:43704 (2 connections now open)
+2017-12-03T21:22:40.676+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43706 #12 (2 connections now open)
+2017-12-03T21:22:40.677+0900 I NETWORK  [conn12] received client metadata from 127.0.0.1:43706 conn12: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:22:40.679+0900 I -        [conn12] end connection 127.0.0.1:43706 (2 connections now open)
+2017-12-03T21:23:25.454+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-3-0] Connecting to localhost:37017
+2017-12-03T21:23:25.455+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-3-0] Successfully connected to localhost:37017, took 1ms (1 connections now open to localhost:37017)
+2017-12-03T21:23:30.534+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43724 #13 (2 connections now open)
+2017-12-03T21:23:30.539+0900 I NETWORK  [conn13] received client metadata from 127.0.0.1:43724 conn13: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:23:30.544+0900 I -        [conn13] end connection 127.0.0.1:43724 (2 connections now open)
+2017-12-03T21:23:30.548+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43726 #14 (2 connections now open)
+2017-12-03T21:23:30.548+0900 I NETWORK  [conn14] received client metadata from 127.0.0.1:43726 conn14: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:23:30.550+0900 I -        [conn14] end connection 127.0.0.1:43726 (2 connections now open)
+2017-12-03T21:24:49.518+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43734 #15 (2 connections now open)
+2017-12-03T21:24:49.526+0900 I NETWORK  [conn15] received client metadata from 127.0.0.1:43734 conn15: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:24:49.532+0900 I -        [conn15] end connection 127.0.0.1:43734 (2 connections now open)
+2017-12-03T21:24:49.537+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43736 #16 (2 connections now open)
+2017-12-03T21:24:49.537+0900 I NETWORK  [conn16] received client metadata from 127.0.0.1:43736 conn16: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:24:49.540+0900 I -        [conn16] end connection 127.0.0.1:43736 (2 connections now open)
+2017-12-03T21:28:08.915+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43758 #17 (2 connections now open)
+2017-12-03T21:28:08.919+0900 I NETWORK  [conn17] received client metadata from 127.0.0.1:43758 conn17: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:28:08.924+0900 I -        [conn17] end connection 127.0.0.1:43758 (2 connections now open)
+2017-12-03T21:28:08.928+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43760 #18 (2 connections now open)
+2017-12-03T21:28:08.928+0900 I NETWORK  [conn18] received client metadata from 127.0.0.1:43760 conn18: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:28:08.930+0900 I -        [conn18] end connection 127.0.0.1:43760 (2 connections now open)
+2017-12-03T21:28:28.740+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43808 #19 (2 connections now open)
+2017-12-03T21:28:28.744+0900 I NETWORK  [conn19] received client metadata from 127.0.0.1:43808 conn19: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:28:28.748+0900 I -        [conn19] end connection 127.0.0.1:43808 (2 connections now open)
+2017-12-03T21:28:28.751+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43810 #20 (2 connections now open)
+2017-12-03T21:28:28.751+0900 I NETWORK  [conn20] received client metadata from 127.0.0.1:43810 conn20: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:28:28.754+0900 I -        [conn20] end connection 127.0.0.1:43810 (2 connections now open)
+2017-12-03T21:28:44.578+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43812 #21 (2 connections now open)
+2017-12-03T21:28:44.582+0900 I NETWORK  [conn21] received client metadata from 127.0.0.1:43812 conn21: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:28:44.586+0900 I -        [conn21] end connection 127.0.0.1:43812 (2 connections now open)
+2017-12-03T21:28:44.590+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43814 #22 (2 connections now open)
+2017-12-03T21:28:44.591+0900 I NETWORK  [conn22] received client metadata from 127.0.0.1:43814 conn22: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:28:44.593+0900 I -        [conn22] end connection 127.0.0.1:43814 (2 connections now open)
+2017-12-03T21:29:01.926+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43816 #23 (2 connections now open)
+2017-12-03T21:29:01.930+0900 I NETWORK  [conn23] received client metadata from 127.0.0.1:43816 conn23: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:29:01.934+0900 I -        [conn23] end connection 127.0.0.1:43816 (2 connections now open)
+2017-12-03T21:29:01.938+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43818 #24 (2 connections now open)
+2017-12-03T21:29:01.939+0900 I NETWORK  [conn24] received client metadata from 127.0.0.1:43818 conn24: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:29:01.943+0900 I -        [conn24] end connection 127.0.0.1:43818 (2 connections now open)
+2017-12-03T21:29:32.046+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43822 #25 (2 connections now open)
+2017-12-03T21:29:32.050+0900 I NETWORK  [conn25] received client metadata from 127.0.0.1:43822 conn25: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:29:32.055+0900 I -        [conn25] end connection 127.0.0.1:43822 (2 connections now open)
+2017-12-03T21:29:32.059+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43824 #26 (2 connections now open)
+2017-12-03T21:29:32.059+0900 I NETWORK  [conn26] received client metadata from 127.0.0.1:43824 conn26: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:29:32.061+0900 I -        [conn26] end connection 127.0.0.1:43824 (2 connections now open)
+2017-12-03T21:30:25.485+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43868 #27 (2 connections now open)
+2017-12-03T21:30:25.489+0900 I NETWORK  [conn27] received client metadata from 127.0.0.1:43868 conn27: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:30:25.494+0900 I -        [conn27] end connection 127.0.0.1:43868 (2 connections now open)
+2017-12-03T21:30:25.498+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43870 #28 (2 connections now open)
+2017-12-03T21:30:25.498+0900 I NETWORK  [conn28] received client metadata from 127.0.0.1:43870 conn28: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:30:25.500+0900 I -        [conn28] end connection 127.0.0.1:43870 (2 connections now open)
+2017-12-03T21:30:51.628+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43872 #29 (2 connections now open)
+2017-12-03T21:30:51.633+0900 I NETWORK  [conn29] received client metadata from 127.0.0.1:43872 conn29: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:30:51.637+0900 I -        [conn29] end connection 127.0.0.1:43872 (2 connections now open)
+2017-12-03T21:30:51.640+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43874 #30 (2 connections now open)
+2017-12-03T21:30:51.640+0900 I NETWORK  [conn30] received client metadata from 127.0.0.1:43874 conn30: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:30:51.642+0900 I -        [conn30] end connection 127.0.0.1:43874 (2 connections now open)
+2017-12-03T21:30:54.705+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43876 #31 (2 connections now open)
+2017-12-03T21:30:54.705+0900 I NETWORK  [conn31] received client metadata from 127.0.0.1:43876 conn31: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:30:57.944+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:37017
+2017-12-03T21:30:57.946+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:37017, took 2ms (1 connections now open to localhost:37017)
+2017-12-03T21:30:57.948+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:47017
+2017-12-03T21:30:57.949+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:47017, took 1ms (1 connections now open to localhost:47017)
+2017-12-03T21:30:57.951+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57017
+2017-12-03T21:30:57.952+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57017, took 1ms (1 connections now open to localhost:57017)
+2017-12-03T21:31:01.300+0900 I -        [conn31] end connection 127.0.0.1:43876 (2 connections now open)
+2017-12-03T21:33:01.365+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43894 #32 (2 connections now open)
+2017-12-03T21:33:01.369+0900 I NETWORK  [conn32] received client metadata from 127.0.0.1:43894 conn32: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:33:01.373+0900 I -        [conn32] end connection 127.0.0.1:43894 (2 connections now open)
+2017-12-03T21:33:01.381+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43896 #33 (2 connections now open)
+2017-12-03T21:33:01.382+0900 I NETWORK  [conn33] received client metadata from 127.0.0.1:43896 conn33: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:33:01.386+0900 I -        [conn33] end connection 127.0.0.1:43896 (2 connections now open)
+2017-12-03T21:33:15.945+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43898 #34 (2 connections now open)
+2017-12-03T21:33:15.950+0900 I NETWORK  [conn34] received client metadata from 127.0.0.1:43898 conn34: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:33:15.954+0900 I -        [conn34] end connection 127.0.0.1:43898 (2 connections now open)
+2017-12-03T21:33:15.958+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:43900 #35 (2 connections now open)
+2017-12-03T21:33:15.958+0900 I NETWORK  [conn35] received client metadata from 127.0.0.1:43900 conn35: { driver: { name: "nodejs", version: "2.2.33" }, os: { type: "Linux", name: "linux", architecture: "x64", version: "4.10.0-40-generic" }, platform: "Node.js v9.2.0, LE, mongodb-core: 2.1.17" }
+2017-12-03T21:33:15.960+0900 I -        [conn35] end connection 127.0.0.1:43900 (2 connections now open)
+2017-12-03T21:36:44.768+0900 I -        [conn2] end connection 127.0.0.1:43242 (1 connection now open)
+2017-12-03T21:36:46.366+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:44006 #36 (1 connection now open)
+2017-12-03T21:36:46.366+0900 I NETWORK  [conn36] received client metadata from 127.0.0.1:44006 conn36: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:37:30.588+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:37017
+2017-12-03T21:37:30.589+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:37017, took 1ms (1 connections now open to localhost:37017)
+2017-12-03T21:38:19.094+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Connecting to localhost:37017
+2017-12-03T21:38:19.096+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Successfully connected to localhost:37017, took 2ms (1 connections now open to localhost:37017)
+2017-12-03T21:38:24.790+0900 I -        [conn36] end connection 127.0.0.1:44006 (1 connection now open)
+2017-12-03T21:45:34.039+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:44132 #37 (1 connection now open)
+2017-12-03T21:45:34.041+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:44134 #38 (2 connections now open)
+2017-12-03T21:45:34.045+0900 I SHARDING [conn38] distributed lock 'mongomart' acquired for 'createDatabase', ts : 5a23f1eee04f6e25ca822f20
+2017-12-03T21:45:34.045+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:37017
+2017-12-03T21:45:34.046+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:37017, took 1ms (1 connections now open to localhost:37017)
+2017-12-03T21:45:34.046+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:47017
+2017-12-03T21:45:34.047+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:47017, took 1ms (1 connections now open to localhost:47017)
+2017-12-03T21:45:34.047+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57017
+2017-12-03T21:45:34.048+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57017, took 1ms (1 connections now open to localhost:57017)
+2017-12-03T21:45:34.048+0900 I SHARDING [conn38] Placing [mongomart] on: s1
+2017-12-03T21:45:34.055+0900 I SHARDING [conn38] distributed lock with ts: 5a23f1eee04f6e25ca822f20' unlocked.
+2017-12-03T21:45:34.056+0900 I NETWORK  [conn38] Successfully connected to localhost:47017 (1 connections now open to localhost:47017 with a 0 second timeout)
+2017-12-03T21:45:34.126+0900 I -        [conn38] end connection 127.0.0.1:44134 (2 connections now open)
+2017-12-03T21:45:34.126+0900 I -        [conn37] end connection 127.0.0.1:44132 (2 connections now open)
+2017-12-03T21:45:45.598+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:44144 #39 (1 connection now open)
+2017-12-03T21:45:45.607+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:44146 #40 (2 connections now open)
+2017-12-03T21:45:45.665+0900 I -        [conn39] end connection 127.0.0.1:44144 (2 connections now open)
+2017-12-03T21:45:45.665+0900 I -        [conn40] end connection 127.0.0.1:44146 (2 connections now open)
+2017-12-03T21:46:12.820+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:44168 #41 (1 connection now open)
+2017-12-03T21:46:12.835+0900 I -        [conn41] end connection 127.0.0.1:44168 (1 connection now open)
+2017-12-03T21:46:12.838+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:44170 #42 (1 connection now open)
+2017-12-03T21:52:17.047+0900 I -        [conn42] end connection 127.0.0.1:44170 (1 connection now open)

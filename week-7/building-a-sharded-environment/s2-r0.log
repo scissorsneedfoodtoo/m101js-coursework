@@ -1,0 +1,175 @@
+2017-12-03T21:00:51.484+0900 I CONTROL  [initandlisten] MongoDB starting : pid=9771 port=57017 dbpath=/data/shard2/rs0 64-bit host=kris-ThinkPad-X1-Carbon-5th
+2017-12-03T21:00:51.484+0900 I CONTROL  [initandlisten] db version v3.4.10
+2017-12-03T21:00:51.484+0900 I CONTROL  [initandlisten] git version: 078f28920cb24de0dd479b5ea6c66c644f6326e9
+2017-12-03T21:00:51.484+0900 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2017-12-03T21:00:51.484+0900 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-12-03T21:00:51.484+0900 I CONTROL  [initandlisten] modules: none
+2017-12-03T21:00:51.485+0900 I CONTROL  [initandlisten] build environment:
+2017-12-03T21:00:51.485+0900 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2017-12-03T21:00:51.485+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2017-12-03T21:00:51.485+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-12-03T21:00:51.485+0900 I CONTROL  [initandlisten] options: { net: { port: 57017 }, processManagement: { fork: true }, replication: { replSet: "s2" }, sharding: { clusterRole: "shardsvr" }, storage: { dbPath: "/data/shard2/rs0" }, systemLog: { destination: "file", path: "s2-r0.log" } }
+2017-12-03T21:00:51.506+0900 I STORAGE  [initandlisten] 
+2017-12-03T21:00:51.506+0900 I STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2017-12-03T21:00:51.506+0900 I STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2017-12-03T21:00:51.506+0900 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7269M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-12-03T21:00:51.594+0900 I CONTROL  [initandlisten] 
+2017-12-03T21:00:51.594+0900 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-12-03T21:00:51.594+0900 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-12-03T21:00:51.594+0900 I CONTROL  [initandlisten] ** WARNING: You are running this process as the root user, which is not recommended.
+2017-12-03T21:00:51.594+0900 I CONTROL  [initandlisten] 
+2017-12-03T21:00:51.594+0900 I CONTROL  [initandlisten] 
+2017-12-03T21:00:51.594+0900 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2017-12-03T21:00:51.594+0900 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2017-12-03T21:00:51.595+0900 I CONTROL  [initandlisten] 
+2017-12-03T21:00:51.595+0900 W SHARDING [initandlisten] Started with --shardsvr, but no shardIdentity document was found on disk in admin.system.version. This most likely means this server has not yet been added to a sharded cluster.
+2017-12-03T21:00:51.626+0900 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/shard2/rs0/diagnostic.data'
+2017-12-03T21:00:51.650+0900 I REPL     [initandlisten] Did not find local voted for document at startup.
+2017-12-03T21:00:51.650+0900 I REPL     [initandlisten] Did not find local replica set configuration document at startup;  NoMatchingDocument: Did not find replica set configuration document in local.system.replset
+2017-12-03T21:00:51.650+0900 I NETWORK  [thread1] waiting for connections on port 57017
+2017-12-03T21:00:57.023+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52876 #1 (1 connection now open)
+2017-12-03T21:00:57.023+0900 I NETWORK  [conn1] received client metadata from 127.0.0.1:52876 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:00:57.026+0900 I REPL     [conn1] replSetInitiate admin command received from client
+2017-12-03T21:00:57.026+0900 I REPL     [conn1] replSetInitiate config object with 3 members parses ok
+2017-12-03T21:00:57.026+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Connecting to localhost:57018
+2017-12-03T21:00:57.026+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Connecting to localhost:57019
+2017-12-03T21:00:57.027+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Successfully connected to localhost:57018, took 1ms (1 connections now open to localhost:57018)
+2017-12-03T21:00:57.027+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Successfully connected to localhost:57019, took 1ms (1 connections now open to localhost:57019)
+2017-12-03T21:00:57.027+0900 I REPL     [conn1] ******
+2017-12-03T21:00:57.027+0900 I REPL     [conn1] creating replication oplog of size: 6116MB...
+2017-12-03T21:00:57.027+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52886 #2 (2 connections now open)
+2017-12-03T21:00:57.027+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52888 #3 (3 connections now open)
+2017-12-03T21:00:57.028+0900 I NETWORK  [conn2] received client metadata from 127.0.0.1:52886 conn2: { driver: { name: "NetworkInterfaceASIO-Replication", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:00:57.028+0900 I NETWORK  [conn3] received client metadata from 127.0.0.1:52888 conn3: { driver: { name: "NetworkInterfaceASIO-Replication", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:00:57.039+0900 I STORAGE  [conn1] Starting WiredTigerRecordStoreThread local.oplog.rs
+2017-12-03T21:00:57.040+0900 I STORAGE  [conn1] The size storer reports that the oplog contains 0 records totaling to 0 bytes
+2017-12-03T21:00:57.040+0900 I STORAGE  [conn1] Scanning the oplog to determine where to place markers for truncation
+2017-12-03T21:00:57.077+0900 I REPL     [conn1] ******
+2017-12-03T21:00:57.119+0900 I REPL     [conn1] New replica set config in use: { _id: "s2", version: 1, protocolVersion: 1, members: [ { _id: 0, host: "localhost:57017", arbiterOnly: false, buildIndexes: true, hidden: false, priority: 1.0, tags: {}, slaveDelay: 0, votes: 1 }, { _id: 1, host: "localhost:57018", arbiterOnly: false, buildIndexes: true, hidden: false, priority: 1.0, tags: {}, slaveDelay: 0, votes: 1 }, { _id: 2, host: "localhost:57019", arbiterOnly: false, buildIndexes: true, hidden: false, priority: 1.0, tags: {}, slaveDelay: 0, votes: 1 } ], settings: { chainingAllowed: true, heartbeatIntervalMillis: 2000, heartbeatTimeoutSecs: 10, electionTimeoutMillis: 10000, catchUpTimeoutMillis: 60000, getLastErrorModes: {}, getLastErrorDefaults: { w: 1, wtimeout: 0 }, replicaSetId: ObjectId('5a23e77974cc47503351a376') } }
+2017-12-03T21:00:57.119+0900 I REPL     [conn1] This node is localhost:57017 in the config
+2017-12-03T21:00:57.119+0900 I REPL     [conn1] transition to STARTUP2
+2017-12-03T21:00:57.120+0900 I REPL     [conn1] Starting replication storage threads
+2017-12-03T21:00:57.120+0900 I REPL     [ReplicationExecutor] Member localhost:57018 is now in state STARTUP
+2017-12-03T21:00:57.120+0900 I REPL     [ReplicationExecutor] Member localhost:57019 is now in state STARTUP
+2017-12-03T21:00:57.121+0900 I REPL     [conn1] Starting replication fetcher thread
+2017-12-03T21:00:57.121+0900 I REPL     [conn1] Starting replication applier thread
+2017-12-03T21:00:57.121+0900 I REPL     [conn1] Starting replication reporter thread
+2017-12-03T21:00:57.122+0900 I REPL     [rsSync] transition to RECOVERING
+2017-12-03T21:00:57.124+0900 I REPL     [rsSync] transition to SECONDARY
+2017-12-03T21:00:57.128+0900 I -        [conn1] end connection 127.0.0.1:52876 (3 connections now open)
+2017-12-03T21:00:59.029+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52918 #4 (3 connections now open)
+2017-12-03T21:00:59.029+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52920 #5 (4 connections now open)
+2017-12-03T21:00:59.030+0900 I -        [conn5] end connection 127.0.0.1:52920 (4 connections now open)
+2017-12-03T21:00:59.030+0900 I -        [conn4] end connection 127.0.0.1:52918 (3 connections now open)
+2017-12-03T21:00:59.267+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52930 #6 (3 connections now open)
+2017-12-03T21:00:59.267+0900 I NETWORK  [conn6] received client metadata from 127.0.0.1:52930 conn6: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:00:59.271+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52932 #7 (4 connections now open)
+2017-12-03T21:00:59.272+0900 I NETWORK  [conn7] received client metadata from 127.0.0.1:52932 conn7: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:00:59.274+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52934 #8 (5 connections now open)
+2017-12-03T21:00:59.275+0900 I NETWORK  [conn8] received client metadata from 127.0.0.1:52934 conn8: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:00:59.278+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52936 #9 (6 connections now open)
+2017-12-03T21:00:59.278+0900 I NETWORK  [conn9] received client metadata from 127.0.0.1:52936 conn9: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:01:02.121+0900 I REPL     [ReplicationExecutor] Member localhost:57018 is now in state SECONDARY
+2017-12-03T21:01:02.121+0900 I REPL     [ReplicationExecutor] Member localhost:57019 is now in state SECONDARY
+2017-12-03T21:01:04.272+0900 I -        [conn6] end connection 127.0.0.1:52930 (6 connections now open)
+2017-12-03T21:01:04.278+0900 I -        [conn8] end connection 127.0.0.1:52934 (5 connections now open)
+2017-12-03T21:01:07.486+0900 I REPL     [ReplicationExecutor] Starting an election, since we've seen no PRIMARY in the past 10000ms
+2017-12-03T21:01:07.487+0900 I REPL     [ReplicationExecutor] conducting a dry run election to see if we could be elected
+2017-12-03T21:01:07.487+0900 I REPL     [ReplicationExecutor] VoteRequester(term 0 dry run) received a yes vote from localhost:57018; response message: { term: 0, voteGranted: true, reason: "", ok: 1.0 }
+2017-12-03T21:01:07.487+0900 I REPL     [ReplicationExecutor] dry election run succeeded, running for election
+2017-12-03T21:01:07.548+0900 I REPL     [ReplicationExecutor] VoteRequester(term 1) received a yes vote from localhost:57019; response message: { term: 1, voteGranted: true, reason: "", ok: 1.0 }
+2017-12-03T21:01:07.548+0900 I REPL     [ReplicationExecutor] election succeeded, assuming primary role in term 1
+2017-12-03T21:01:07.549+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Ending connection to host localhost:57018 due to bad connection status; 0 connections to that host remain open
+2017-12-03T21:01:07.549+0900 I REPL     [ReplicationExecutor] transition to PRIMARY
+2017-12-03T21:01:07.549+0900 I REPL     [ReplicationExecutor] Entering primary catch-up mode.
+2017-12-03T21:01:07.549+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Connecting to localhost:57018
+2017-12-03T21:01:07.550+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Successfully connected to localhost:57018, took 1ms (1 connections now open to localhost:57018)
+2017-12-03T21:01:07.550+0900 I REPL     [ReplicationExecutor] Caught up to the latest optime known via heartbeats after becoming primary.
+2017-12-03T21:01:07.550+0900 I REPL     [ReplicationExecutor] Exited primary catch-up mode.
+2017-12-03T21:01:09.126+0900 I REPL     [rsSync] transition to primary complete; database writes are now permitted
+2017-12-03T21:01:10.286+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52974 #10 (5 connections now open)
+2017-12-03T21:01:10.286+0900 I NETWORK  [conn10] received client metadata from 127.0.0.1:52974 conn10: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:01:10.299+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:52976 #11 (6 connections now open)
+2017-12-03T21:01:10.299+0900 I NETWORK  [conn11] received client metadata from 127.0.0.1:52976 conn11: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:10.831+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53080 #12 (7 connections now open)
+2017-12-03T21:02:10.831+0900 I NETWORK  [conn12] received client metadata from 127.0.0.1:53080 conn12: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:10.833+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53084 #13 (8 connections now open)
+2017-12-03T21:02:10.833+0900 I NETWORK  [conn13] received client metadata from 127.0.0.1:53084 conn13: { driver: { name: "AddShard-TaskExecutor", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:10.878+0900 I INDEX    [conn13] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2017-12-03T21:02:10.878+0900 I INDEX    [conn13] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2017-12-03T21:02:10.879+0900 I INDEX    [conn13] build index done.  scanned 0 total records. 0 secs
+2017-12-03T21:02:10.880+0900 I COMMAND  [conn13] setting featureCompatibilityVersion to 3.4
+2017-12-03T21:02:10.921+0900 I SHARDING [conn13] initializing sharding state with: { _id: "shardIdentity", configsvrConnectionString: "csReplSet/localhost:57040,localhost:57041,localhost:57042", shardName: "s2", clusterId: ObjectId('5a23e786bf51d32cbcc946a4') }
+2017-12-03T21:02:10.921+0900 I SHARDING [conn13] first cluster operation detected, adding sharding hook to enable versioning and authentication to remote servers
+2017-12-03T21:02:10.922+0900 I NETWORK  [conn13] Starting new replica set monitor for csReplSet/localhost:57040,localhost:57041,localhost:57042
+2017-12-03T21:02:10.922+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57040 (1 connections now open to localhost:57040 with a 5 second timeout)
+2017-12-03T21:02:10.923+0900 I SHARDING [thread2] creating distributed lock ping thread for process kris-ThinkPad-X1-Carbon-5th:57017:1512302530:6430534706602845718 (sleeping for 30000ms)
+2017-12-03T21:02:10.923+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-03T21:02:10.923+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-03T21:02:10.923+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57042 (1 connections now open to localhost:57042 with a 5 second timeout)
+2017-12-03T21:02:10.924+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 1ms (2 connections now open to localhost:57040)
+2017-12-03T21:02:10.924+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 1ms (2 connections now open to localhost:57040)
+2017-12-03T21:02:10.925+0900 I NETWORK  [shard registry reload] Starting new replica set monitor for s0/localhost:37017,localhost:37018,localhost:37019
+2017-12-03T21:02:10.925+0900 I NETWORK  [shard registry reload] Starting new replica set monitor for s1/localhost:47017,localhost:47018,localhost:47019
+2017-12-03T21:02:10.926+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57041 (1 connections now open to localhost:57041 with a 5 second timeout)
+2017-12-03T21:02:10.927+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37017 (1 connections now open to localhost:37017 with a 5 second timeout)
+2017-12-03T21:02:10.929+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37019 (1 connections now open to localhost:37019 with a 5 second timeout)
+2017-12-03T21:02:10.929+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37018 (1 connections now open to localhost:37018 with a 5 second timeout)
+2017-12-03T21:02:10.930+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47017 (1 connections now open to localhost:47017 with a 5 second timeout)
+2017-12-03T21:02:10.930+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47019 (1 connections now open to localhost:47019 with a 5 second timeout)
+2017-12-03T21:02:10.931+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47018 (1 connections now open to localhost:47018 with a 5 second timeout)
+2017-12-03T21:02:10.932+0900 W SHARDING [replSetDistLockPinger] pinging failed for distributed lock pinger :: caused by :: LockStateChangeFailed: findAndModify query predicate didn't match any lock document
+2017-12-03T21:02:10.963+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53182 #14 (9 connections now open)
+2017-12-03T21:02:10.963+0900 I NETWORK  [conn14] received client metadata from 127.0.0.1:53182 conn14: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:10.984+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53196 #15 (10 connections now open)
+2017-12-03T21:02:10.985+0900 I NETWORK  [conn15] received client metadata from 127.0.0.1:53196 conn15: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:11.205+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53226 #16 (11 connections now open)
+2017-12-03T21:02:11.206+0900 I NETWORK  [conn16] received client metadata from 127.0.0.1:53226 conn16: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:20.536+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53238 #17 (12 connections now open)
+2017-12-03T21:02:20.537+0900 I NETWORK  [conn17] received client metadata from 127.0.0.1:53238 conn17: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:27.454+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53254 #18 (13 connections now open)
+2017-12-03T21:02:27.454+0900 I NETWORK  [conn18] received client metadata from 127.0.0.1:53254 conn18: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:27.610+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53272 #19 (14 connections now open)
+2017-12-03T21:02:27.610+0900 I NETWORK  [conn19] received client metadata from 127.0.0.1:53272 conn19: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:40.681+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53302 #20 (15 connections now open)
+2017-12-03T21:02:40.681+0900 I NETWORK  [conn20] received client metadata from 127.0.0.1:53302 conn20: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:40.683+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53308 #21 (16 connections now open)
+2017-12-03T21:02:40.684+0900 I NETWORK  [conn21] received client metadata from 127.0.0.1:53308 conn21: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:40.824+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53318 #22 (17 connections now open)
+2017-12-03T21:02:40.824+0900 I NETWORK  [conn22] received client metadata from 127.0.0.1:53318 conn22: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:40.830+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53324 #23 (18 connections now open)
+2017-12-03T21:02:40.831+0900 I NETWORK  [conn23] received client metadata from 127.0.0.1:53324 conn23: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:40.848+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53332 #24 (19 connections now open)
+2017-12-03T21:02:40.849+0900 I NETWORK  [conn24] received client metadata from 127.0.0.1:53332 conn24: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:40.925+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-03T21:02:40.927+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-03T21:02:40.928+0900 I NETWORK  [shard registry reload] Starting new replica set monitor for s2/localhost:57017,localhost:57018,localhost:57019
+2017-12-03T21:02:40.929+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53346 #25 (20 connections now open)
+2017-12-03T21:02:40.929+0900 I NETWORK  [conn25] received client metadata from 127.0.0.1:53346 conn25: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:40.930+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57017 (1 connections now open to localhost:57017 with a 5 second timeout)
+2017-12-03T21:02:40.930+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53348 #26 (21 connections now open)
+2017-12-03T21:02:40.931+0900 I NETWORK  [conn26] received client metadata from 127.0.0.1:53348 conn26: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:40.933+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57018 (1 connections now open to localhost:57018 with a 5 second timeout)
+2017-12-03T21:02:40.933+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53354 #27 (22 connections now open)
+2017-12-03T21:02:40.933+0900 I NETWORK  [conn27] received client metadata from 127.0.0.1:53354 conn27: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:02:40.935+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57019 (1 connections now open to localhost:57019 with a 5 second timeout)
+2017-12-03T21:03:10.925+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 1 connections to that host remain open
+2017-12-03T21:07:10.925+0900 I -        [conn13] end connection 127.0.0.1:53084 (22 connections now open)
+2017-12-03T21:07:10.935+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T21:07:10.937+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-03T21:07:20.125+0900 I -        [conn15] end connection 127.0.0.1:53196 (21 connections now open)
+2017-12-03T21:26:34.178+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53732 #28 (21 connections now open)
+2017-12-03T21:26:34.178+0900 I NETWORK  [conn28] received client metadata from 127.0.0.1:53732 conn28: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:27:34.179+0900 I -        [conn7] end connection 127.0.0.1:52932 (21 connections now open)
+2017-12-03T21:30:57.951+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:53872 #29 (21 connections now open)
+2017-12-03T21:30:57.952+0900 I NETWORK  [conn29] received client metadata from 127.0.0.1:53872 conn29: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:32:11.036+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T21:32:11.037+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-03T21:35:57.956+0900 I -        [conn29] end connection 127.0.0.1:53872 (21 connections now open)
+2017-12-03T21:44:11.056+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-03T21:44:11.057+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-03T21:45:34.047+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:54130 #30 (21 connections now open)
+2017-12-03T21:45:34.048+0900 I NETWORK  [conn30] received client metadata from 127.0.0.1:54130 conn30: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:50:34.048+0900 I -        [conn30] end connection 127.0.0.1:54130 (21 connections now open)
+2017-12-03T21:51:11.068+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T21:51:11.069+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
