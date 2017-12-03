@@ -218,3 +218,5 @@
 2017-12-03T22:44:29.645+0900 I -        [conn28] end connection 127.0.0.1:53358 (23 connections now open)
 2017-12-03T22:44:43.471+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:54616 #46 (23 connections now open)
 2017-12-03T22:44:43.472+0900 I NETWORK  [conn46] received client metadata from 127.0.0.1:54616 conn46: { driver: { name: "NetworkInterfaceASIO-TaskExecutorPool-3", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:49:41.088+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T22:49:41.089+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)

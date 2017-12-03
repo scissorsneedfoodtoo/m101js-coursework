@@ -3019,3 +3019,23 @@
 2017-12-03T22:49:10.157+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
 2017-12-03T22:49:12.155+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:40768 #112 (28 connections now open)
 2017-12-03T22:49:12.155+0900 I NETWORK  [conn112] received client metadata from 127.0.0.1:40768 conn112: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:49:20.163+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:20.164+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:20.168+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:20.168+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:30.177+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:30.178+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:30.184+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:30.185+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:40.188+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:40.188+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:40.190+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:40.191+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:50.199+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:50.200+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:50.206+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:49:50.207+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:50:00.214+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:50:00.215+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:50:00.220+0900 I SHARDING [Balancer] Refreshing chunks for collection school.students based on version 1|0||5a23e7c3e04f6e25ca80a826
+2017-12-03T22:50:00.221+0900 I SHARDING [CatalogCacheLoader-0] Refresh for collection school.students took 0 ms and found version 1|0||5a23e7c3e04f6e25ca80a826

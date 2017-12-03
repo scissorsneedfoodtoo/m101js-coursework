@@ -52,12 +52,6 @@ function ItemDAO(database) {
         *
         */
 
-        // TODO-lab1A Replace all code above (in this method).
-
-        // TODO Include the following line in the appropriate
-        // place within your code to pass the categories array to the
-        // callback.
-
         let pipeline = [
           {"$group":
             {_id: "$category",
@@ -106,12 +100,6 @@ function ItemDAO(database) {
          *
          */
 
-        // TODO-lab1B Replace all code above (in this method).
-
-        // TODO Include the following line in the appropriate
-        // place within your code to pass the items for the selected page
-        // to the callback.
-
         let queryDoc;
         if (category == "All") {
           queryDoc = {};
@@ -148,9 +136,6 @@ function ItemDAO(database) {
          * of a call to the getNumItems() method.
          *
          */
-
-         // TODO Include the following line in the appropriate
-         // place within your code to pass the count to the callback.
 
         let queryDoc;
         if (category == "All") {
