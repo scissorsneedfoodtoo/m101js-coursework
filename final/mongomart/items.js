@@ -57,7 +57,27 @@ function ItemDAO(database) {
         // TODO Include the following line in the appropriate
         // place within your code to pass the categories array to the
         // callback.
-        callback(categories);
+
+        let pipeline = [
+          {"$group":
+            {_id: "$category",
+            num: {"$sum" : 1}
+          }},
+          {"$sort": {_id: 1} }
+        ];
+
+        this.db.collection("item").aggregate(pipeline).toArray(function(err, categories) {
+            assert.equal(null, err);
+
+            var total = 0;
+            for (let i = 0; i < categories.length; i++) {
+              total += categories[i].num;
+            }
+
+            categories.unshift({_id: "All", num: total});
+
+            callback(categories);
+        });
     }
 
 
@@ -86,18 +106,26 @@ function ItemDAO(database) {
          *
          */
 
-        var pageItem = this.createDummyItem();
-        var pageItems = [];
-        for (var i=0; i<5; i++) {
-            pageItems.push(pageItem);
-        }
-
         // TODO-lab1B Replace all code above (in this method).
 
         // TODO Include the following line in the appropriate
         // place within your code to pass the items for the selected page
         // to the callback.
-        callback(pageItems);
+
+        let queryDoc;
+        if (category == "All") {
+          queryDoc = {};
+        } else {
+          queryDoc = {category: category};
+        }
+
+        var cursor = this.db.collection("item").find(queryDoc);
+        cursor.skip(page*itemsPerPage);
+        cursor.limit(itemsPerPage);
+        cursor.toArray(function(err, pageItems) {
+          assert.equal(null, err);
+          callback(pageItems);
+        });
     }
 
 
@@ -123,7 +151,18 @@ function ItemDAO(database) {
 
          // TODO Include the following line in the appropriate
          // place within your code to pass the count to the callback.
-        callback(numItems);
+
+        let queryDoc;
+        if (category == "All") {
+          queryDoc = {};
+        } else {
+          queryDoc = {category: category};
+        }
+
+        this.db.collection("item").find(queryDoc).count(function(err, count) {
+          assert.equal(null, err);
+          callback(count);
+        });
     }
 
 

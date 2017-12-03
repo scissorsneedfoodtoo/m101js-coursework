@@ -154,3 +154,14 @@
 2017-12-03T21:44:24.546+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:47017
 2017-12-03T21:44:24.549+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:47017, took 3ms (3 connections now open to localhost:47017)
 2017-12-03T21:45:24.547+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:47017 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T21:58:10.941+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T21:58:10.943+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-03T22:20:40.996+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T22:20:40.998+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-03T22:27:11.036+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T22:27:11.037+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-03T22:33:11.048+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T22:33:11.049+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-03T22:43:29.644+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:47017
+2017-12-03T22:43:29.645+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:47017, took 1ms (3 connections now open to localhost:47017)
+2017-12-03T22:44:29.645+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:47017 because the pool meets constraints; 2 connections to that host remain open

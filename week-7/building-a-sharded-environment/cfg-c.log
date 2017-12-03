@@ -260,3 +260,106 @@
 2017-12-03T21:50:42.821+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
 2017-12-03T21:50:42.822+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 1ms (3 connections now open to localhost:57040)
 2017-12-03T21:52:11.399+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T21:53:41.054+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:36536 #36 (22 connections now open)
+2017-12-03T21:53:41.054+0900 I NETWORK  [conn36] received client metadata from 127.0.0.1:36536 conn36: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:54:11.055+0900 I -        [conn35] end connection 127.0.0.1:36444 (22 connections now open)
+2017-12-03T21:54:11.064+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:36574 #37 (22 connections now open)
+2017-12-03T21:54:11.064+0900 I NETWORK  [conn37] received client metadata from 127.0.0.1:36574 conn37: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T21:55:41.459+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T21:55:41.462+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 3ms (3 connections now open to localhost:57040)
+2017-12-03T21:56:41.461+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T21:56:41.559+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T21:56:41.562+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 3ms (3 connections now open to localhost:57040)
+2017-12-03T21:57:41.560+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T21:58:11.584+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T21:58:11.586+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T21:59:13.183+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:01:18.330+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:01:18.332+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:03:11.634+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:03:40.801+0900 I -        [conn33] end connection 127.0.0.1:36370 (22 connections now open)
+2017-12-03T22:04:41.657+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:04:41.661+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 5ms (3 connections now open to localhost:57040)
+2017-12-03T22:05:41.661+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:06:11.672+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:06:11.672+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 0ms (3 connections now open to localhost:57040)
+2017-12-03T22:08:11.690+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:09:10.823+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:36814 #38 (22 connections now open)
+2017-12-03T22:09:10.823+0900 I NETWORK  [conn38] received client metadata from 127.0.0.1:36814 conn38: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:09:11.712+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:09:11.714+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:10:11.714+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:10:43.776+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:10:43.778+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:11:11.076+0900 I -        [conn36] end connection 127.0.0.1:36536 (22 connections now open)
+2017-12-03T22:11:43.778+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:11:43.817+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:11:43.818+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 1ms (3 connections now open to localhost:57040)
+2017-12-03T22:12:41.089+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:36898 #39 (22 connections now open)
+2017-12-03T22:12:41.089+0900 I NETWORK  [conn39] received client metadata from 127.0.0.1:36898 conn39: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:12:43.817+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:13:41.687+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:13:41.689+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:14:41.689+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:14:53.965+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:14:53.966+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 1ms (3 connections now open to localhost:57040)
+2017-12-03T22:16:23.980+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:17:41.089+0900 I -        [conn39] end connection 127.0.0.1:36898 (22 connections now open)
+2017-12-03T22:17:41.097+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:36974 #40 (22 connections now open)
+2017-12-03T22:17:41.098+0900 I NETWORK  [conn40] received client metadata from 127.0.0.1:36974 conn40: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:21:11.774+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:21:11.776+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:22:11.777+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:22:11.833+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:22:11.835+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:23:14.340+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:23:41.102+0900 I -        [conn40] end connection 127.0.0.1:36974 (22 connections now open)
+2017-12-03T22:25:11.113+0900 I -        [conn37] end connection 127.0.0.1:36574 (21 connections now open)
+2017-12-03T22:25:11.866+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:25:11.867+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 1ms (3 connections now open to localhost:57040)
+2017-12-03T22:25:40.852+0900 I -        [conn38] end connection 127.0.0.1:36814 (20 connections now open)
+2017-12-03T22:26:10.865+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:37014 #41 (20 connections now open)
+2017-12-03T22:26:10.865+0900 I NETWORK  [conn41] received client metadata from 127.0.0.1:37014 conn41: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:26:11.140+0900 I -        [conn34] end connection 127.0.0.1:36384 (20 connections now open)
+2017-12-03T22:26:41.838+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:26:41.854+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:26:41.856+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:27:11.126+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:37046 #42 (20 connections now open)
+2017-12-03T22:27:11.126+0900 I NETWORK  [conn42] received client metadata from 127.0.0.1:37046 conn42: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:27:41.126+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:37056 #43 (21 connections now open)
+2017-12-03T22:27:41.126+0900 I NETWORK  [conn43] received client metadata from 127.0.0.1:37056 conn43: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:27:41.878+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:28:44.625+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:28:44.627+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 3ms (3 connections now open to localhost:57040)
+2017-12-03T22:29:44.626+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:31:03.344+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:31:03.346+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:31:41.163+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:37108 #44 (22 connections now open)
+2017-12-03T22:31:41.163+0900 I NETWORK  [conn44] received client metadata from 127.0.0.1:37108 conn44: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:32:14.730+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:32:41.129+0900 I -        [conn42] end connection 127.0.0.1:37046 (22 connections now open)
+2017-12-03T22:32:41.139+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:37126 #45 (22 connections now open)
+2017-12-03T22:32:41.140+0900 I NETWORK  [conn45] received client metadata from 127.0.0.1:37126 conn45: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:36:41.987+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:36:41.989+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:37:41.987+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:37:42.026+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:37:42.029+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 3ms (3 connections now open to localhost:57040)
+2017-12-03T22:38:45.044+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:38:45.081+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:38:45.084+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 3ms (3 connections now open to localhost:57040)
+2017-12-03T22:39:11.062+0900 I -        [conn30] end connection 127.0.0.1:36008 (22 connections now open)
+2017-12-03T22:39:41.070+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:37210 #46 (22 connections now open)
+2017-12-03T22:39:41.071+0900 I NETWORK  [conn46] received client metadata from 127.0.0.1:37210 conn46: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:40:12.030+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:41:11.070+0900 I -        [conn25] end connection 127.0.0.1:35778 (22 connections now open)
+2017-12-03T22:41:11.077+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:37216 #47 (22 connections now open)
+2017-12-03T22:41:11.078+0900 I NETWORK  [conn47] received client metadata from 127.0.0.1:37216 conn47: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:44:42.117+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:44:42.119+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
+2017-12-03T22:46:41.185+0900 I -        [conn44] end connection 127.0.0.1:37108 (22 connections now open)
+2017-12-03T22:46:41.196+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:37260 #48 (22 connections now open)
+2017-12-03T22:46:41.196+0900 I NETWORK  [conn48] received client metadata from 127.0.0.1:37260 conn48: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:47:12.144+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57040 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T22:47:42.124+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57040
+2017-12-03T22:47:42.125+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57040, took 2ms (3 connections now open to localhost:57040)
