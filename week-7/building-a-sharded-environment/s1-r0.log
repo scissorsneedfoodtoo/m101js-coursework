@@ -461,3 +461,46 @@
 2017-12-04T16:08:41.262+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
 2017-12-04T16:14:11.271+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
 2017-12-04T16:14:11.273+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T16:45:25.216+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 1094 secs, remote host 127.0.0.1:37018)
+2017-12-04T16:45:25.217+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 1094 secs, remote host 127.0.0.1:47019)
+2017-12-04T16:45:25.217+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 1094 secs, remote host 127.0.0.1:57019)
+2017-12-04T16:45:25.251+0900 I REPL     [replication-0] Choosing new sync source because our current sync source, localhost:47019, has an OpTime ({ ts: Timestamp 1512372452000|1, t: 3 }) which is not ahead of ours ({ ts: Timestamp 1512372452000|1, t: 3 }), it does not have a sync source, and it's not the primary (sync source does not know the primary)
+2017-12-04T16:45:25.251+0900 I REPL     [replication-0] Canceling oplog query due to OplogQueryMetadata. We have to choose a new sync source. Current source: localhost:47019, OpTime { ts: Timestamp 1512372452000|1, t: 3 }, its sync source index:-1
+2017-12-04T16:45:25.251+0900 I REPL     [ReplicationExecutor] Member localhost:47019 is now in state SECONDARY
+2017-12-04T16:45:25.251+0900 W REPL     [rsBackgroundSync] Fetcher stopped querying remote oplog with error: InvalidSyncSource: sync source localhost:47019 (config version: 1; last applied optime: { ts: Timestamp 1512372452000|1, t: 3 }; sync source index: -1; primary index: -1) is no longer valid
+2017-12-04T16:45:25.252+0900 I REPL     [rsBackgroundSync] could not find member to sync from
+2017-12-04T16:45:25.266+0900 I REPL     [SyncSourceFeedback] SyncSourceFeedback error sending update to localhost:47019: InvalidSyncSource: Sync source was cleared. Was localhost:47019
+2017-12-04T16:45:25.268+0900 I NETWORK  [replSetDistLockPinger] Marking host localhost:57041 as failed :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T16:45:25.268+0900 W SHARDING [replSetDistLockPinger] pinging failed for distributed lock pinger :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T16:45:27.350+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:47019 because the pool meets constraints; 1 connections to that host remain open
+2017-12-04T16:45:31.892+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-04T16:45:31.893+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 1ms (1 connections now open to localhost:57040)
+2017-12-04T16:45:32.304+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57019 (1 connections now open to localhost:57019 with a 5 second timeout)
+2017-12-04T16:45:32.305+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 7 secs, remote host 127.0.0.1:57041)
+2017-12-04T16:45:32.307+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57041 (1 connections now open to localhost:57041 with a 5 second timeout)
+2017-12-04T16:45:32.310+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47019 (1 connections now open to localhost:47019 with a 5 second timeout)
+2017-12-04T16:45:32.311+0900 W NETWORK  [ReplicaSetMonitor-TaskExecutor-0] No primary detected for set s1
+2017-12-04T16:45:32.313+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37018 (1 connections now open to localhost:37018 with a 5 second timeout)
+2017-12-04T16:45:40.255+0900 I REPL     [ReplicationExecutor] Member localhost:47018 is now in state PRIMARY
+2017-12-04T16:45:40.255+0900 I REPL     [rsBackgroundSync] sync source candidate: localhost:47018
+2017-12-04T16:45:40.255+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:47018
+2017-12-04T16:45:40.257+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T16:45:40.258+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:47018
+2017-12-04T16:45:40.259+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:47018, took 1ms (2 connections now open to localhost:47018)
+2017-12-04T16:45:55.268+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T16:45:55.275+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 7ms (1 connections now open to localhost:57042)
+2017-12-04T16:50:31.906+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T16:50:31.907+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T17:03:31.937+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T17:03:31.938+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T17:27:02.980+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T17:27:02.983+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 3ms (1 connections now open to localhost:57041)
+2017-12-04T17:50:04.192+0900 I INDEX    [repl writer worker 9] build index on: mongomart.item properties: { v: 2, key: { _fts: "text", _ftsx: 1 }, name: "title_text_slogan_text_description_text", ns: "mongomart.item", weights: { description: 1, slogan: 1, title: 1 }, default_language: "english", language_override: "language", textIndexVersion: 3 }
+2017-12-04T17:50:04.193+0900 I INDEX    [repl writer worker 9] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2017-12-04T17:50:04.205+0900 I INDEX    [repl writer worker 9] build index done.  scanned 23 total records. 0 secs
+2017-12-04T18:03:33.076+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T18:03:33.078+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T18:16:03.107+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-04T18:16:03.108+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 1ms (1 connections now open to localhost:57040)
+2017-12-04T18:24:03.126+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T18:24:03.128+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)

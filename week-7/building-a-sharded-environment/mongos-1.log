@@ -609,3 +609,147 @@
 2017-12-04T16:16:11.372+0900 I -        [conn181] end connection 127.0.0.1:59166 (2 connections now open)
 2017-12-04T16:16:11.375+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:59168 #182 (2 connections now open)
 2017-12-04T16:21:41.848+0900 I -        [conn182] end connection 127.0.0.1:59168 (2 connections now open)
+2017-12-04T16:45:25.191+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T16:45:25.191+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T16:45:25.191+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 1077 secs, remote host 127.0.0.1:47019)
+2017-12-04T16:45:25.191+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 1111 secs, remote host 127.0.0.1:47019)
+2017-12-04T16:45:25.204+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 13ms (3 connections now open to localhost:57041)
+2017-12-04T16:45:25.204+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 13ms (3 connections now open to localhost:57041)
+2017-12-04T16:45:25.255+0900 I NETWORK  [Uptime reporter] Marking host localhost:57041 as failed :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T16:45:25.256+0900 I NETWORK  [Uptime reporter] Detected bad connection created at 1512302457860367 microSec, clearing pool for localhost:57041 of 0 connections
+2017-12-04T16:45:25.256+0900 I NETWORK  [Uptime reporter] Dropping all pooled connections to localhost:57041(with timeout of 5 seconds)
+2017-12-04T16:45:25.256+0900 I NETWORK  [Uptime reporter] Ending connection to host localhost:57041(with timeout of 5 seconds) due to bad connection status; 0 connections to that host remain open
+2017-12-04T16:45:25.256+0900 W SHARDING [replSetDistLockPinger] pinging failed for distributed lock pinger :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T16:45:25.256+0900 W NETWORK  [Uptime reporter] No primary detected for set csReplSet
+2017-12-04T16:45:25.757+0900 I NETWORK  [Uptime reporter] Successfully connected to localhost:57041 (1 connections now open to localhost:57041 with a 5 second timeout)
+2017-12-04T16:45:25.757+0900 W NETWORK  [Uptime reporter] No primary detected for set csReplSet
+2017-12-04T16:45:26.258+0900 W NETWORK  [Uptime reporter] No primary detected for set csReplSet
+2017-12-04T16:45:26.759+0900 W NETWORK  [Uptime reporter] No primary detected for set csReplSet
+2017-12-04T16:45:27.261+0900 W NETWORK  [Uptime reporter] No primary detected for set csReplSet
+2017-12-04T16:45:27.762+0900 W NETWORK  [Uptime reporter] No primary detected for set csReplSet
+2017-12-04T16:45:41.206+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-04T16:45:41.208+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-04T16:45:49.453+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47019 (1 connections now open to localhost:47019 with a 5 second timeout)
+2017-12-04T16:45:49.454+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 24 secs, remote host 127.0.0.1:37018)
+2017-12-04T16:45:49.456+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37018 (1 connections now open to localhost:37018 with a 5 second timeout)
+2017-12-04T16:45:49.457+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 24 secs, remote host 127.0.0.1:57019)
+2017-12-04T16:45:49.459+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57019 (1 connections now open to localhost:57019 with a 5 second timeout)
+2017-12-04T16:45:55.191+0900 I ACCESS   [UserCacheInvalidator] User cache generation changed from 5a23e77c6a5630da67756306 to 5a23e77cbbc105be37860a8c; invalidating user cache
+2017-12-04T16:46:25.204+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Ending idle connection to host localhost:57041 because the pool meets constraints; 2 connections to that host remain open
+2017-12-04T16:46:25.255+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Ending idle connection to host localhost:57041 because the pool meets constraints; 1 connections to that host remain open
+2017-12-04T17:28:04.400+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T17:28:04.402+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (2 connections now open to localhost:57042)
+2017-12-04T17:28:08.751+0900 I -        [conn176] end connection 127.0.0.1:57728 (1 connection now open)
+2017-12-04T17:29:04.401+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Ending idle connection to host localhost:57042 because the pool meets constraints; 1 connections to that host remain open
+2017-12-04T17:38:00.635+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:35530 #183 (1 connection now open)
+2017-12-04T17:38:00.651+0900 I -        [conn183] end connection 127.0.0.1:35530 (1 connection now open)
+2017-12-04T17:38:00.654+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:35532 #184 (1 connection now open)
+2017-12-04T17:38:04.904+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-3-0] Connecting to localhost:47018
+2017-12-04T17:38:04.906+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-3-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T17:38:11.971+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Connecting to localhost:47018
+2017-12-04T17:38:11.972+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Successfully connected to localhost:47018, took 1ms (1 connections now open to localhost:47018)
+2017-12-04T17:38:27.838+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:35768 #185 (2 connections now open)
+2017-12-04T17:38:27.838+0900 I NETWORK  [conn185] received client metadata from 127.0.0.1:35768 conn185: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T17:38:42.278+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Connecting to localhost:47018
+2017-12-04T17:38:42.280+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T17:39:32.671+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Connecting to localhost:47018
+2017-12-04T17:39:32.672+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Successfully connected to localhost:47018, took 1ms (1 connections now open to localhost:47018)
+2017-12-04T17:40:06.942+0900 I -        [conn184] end connection 127.0.0.1:35532 (2 connections now open)
+2017-12-04T17:40:07.759+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:36568 #186 (2 connections now open)
+2017-12-04T17:40:07.781+0900 I -        [conn186] end connection 127.0.0.1:36568 (2 connections now open)
+2017-12-04T17:40:07.785+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:36570 #187 (2 connections now open)
+2017-12-04T17:45:30.911+0900 I -        [conn187] end connection 127.0.0.1:36570 (2 connections now open)
+2017-12-04T17:46:08.440+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:39530 #188 (2 connections now open)
+2017-12-04T17:46:08.454+0900 I -        [conn188] end connection 127.0.0.1:39530 (2 connections now open)
+2017-12-04T17:46:08.457+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:39532 #189 (2 connections now open)
+2017-12-04T17:46:14.144+0900 I -        [conn189] end connection 127.0.0.1:39532 (2 connections now open)
+2017-12-04T17:50:40.645+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Connecting to localhost:47018
+2017-12-04T17:50:40.647+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T17:50:44.594+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Connecting to localhost:47018
+2017-12-04T17:50:44.596+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T17:50:57.819+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Connecting to localhost:47018
+2017-12-04T17:50:57.821+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T17:51:42.105+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-3-0] Connecting to localhost:47018
+2017-12-04T17:51:42.107+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-3-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T17:52:42.492+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:42746 #190 (2 connections now open)
+2017-12-04T17:52:42.506+0900 I -        [conn190] end connection 127.0.0.1:42746 (2 connections now open)
+2017-12-04T17:52:42.509+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:42748 #191 (2 connections now open)
+2017-12-04T17:56:20.384+0900 I -        [conn191] end connection 127.0.0.1:42748 (2 connections now open)
+2017-12-04T17:56:21.298+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:44546 #192 (2 connections now open)
+2017-12-04T17:56:21.312+0900 I -        [conn192] end connection 127.0.0.1:44546 (2 connections now open)
+2017-12-04T17:56:21.315+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:44548 #193 (2 connections now open)
+2017-12-04T17:58:40.828+0900 I -        [conn193] end connection 127.0.0.1:44548 (2 connections now open)
+2017-12-04T17:58:41.721+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:45692 #194 (2 connections now open)
+2017-12-04T17:58:41.735+0900 I -        [conn194] end connection 127.0.0.1:45692 (2 connections now open)
+2017-12-04T17:58:41.738+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:45694 #195 (2 connections now open)
+2017-12-04T17:58:50.697+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Connecting to localhost:47018
+2017-12-04T17:58:50.698+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Successfully connected to localhost:47018, took 1ms (1 connections now open to localhost:47018)
+2017-12-04T18:05:02.173+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Connecting to localhost:47018
+2017-12-04T18:05:02.175+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T18:05:26.692+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Connecting to localhost:47018
+2017-12-04T18:05:26.693+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Successfully connected to localhost:47018, took 1ms (1 connections now open to localhost:47018)
+2017-12-04T18:06:00.734+0900 I -        [conn195] end connection 127.0.0.1:45694 (2 connections now open)
+2017-12-04T18:06:01.898+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:49256 #196 (2 connections now open)
+2017-12-04T18:06:01.912+0900 I -        [conn196] end connection 127.0.0.1:49256 (2 connections now open)
+2017-12-04T18:06:01.915+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:49258 #197 (2 connections now open)
+2017-12-04T18:06:12.898+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Connecting to localhost:47018
+2017-12-04T18:06:12.901+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T18:06:38.215+0900 I -        [conn197] end connection 127.0.0.1:49258 (2 connections now open)
+2017-12-04T18:06:39.295+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:49574 #198 (2 connections now open)
+2017-12-04T18:06:39.309+0900 I -        [conn198] end connection 127.0.0.1:49574 (2 connections now open)
+2017-12-04T18:06:39.313+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:49576 #199 (2 connections now open)
+2017-12-04T18:07:26.928+0900 I -        [conn199] end connection 127.0.0.1:49576 (2 connections now open)
+2017-12-04T18:07:29.980+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:49986 #200 (2 connections now open)
+2017-12-04T18:07:29.995+0900 I -        [conn200] end connection 127.0.0.1:49986 (2 connections now open)
+2017-12-04T18:07:29.998+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:49988 #201 (2 connections now open)
+2017-12-04T18:07:33.605+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-3-0] Connecting to localhost:47018
+2017-12-04T18:07:33.606+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-3-0] Successfully connected to localhost:47018, took 1ms (1 connections now open to localhost:47018)
+2017-12-04T18:11:39.181+0900 I -        [conn201] end connection 127.0.0.1:49988 (2 connections now open)
+2017-12-04T18:11:53.111+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:52106 #202 (2 connections now open)
+2017-12-04T18:11:53.125+0900 I -        [conn202] end connection 127.0.0.1:52106 (2 connections now open)
+2017-12-04T18:11:53.128+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:52108 #203 (2 connections now open)
+2017-12-04T18:12:00.443+0900 I -        [conn203] end connection 127.0.0.1:52108 (2 connections now open)
+2017-12-04T18:12:25.276+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:52422 #204 (2 connections now open)
+2017-12-04T18:12:25.290+0900 I -        [conn204] end connection 127.0.0.1:52422 (2 connections now open)
+2017-12-04T18:12:25.293+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:52424 #205 (2 connections now open)
+2017-12-04T18:12:28.823+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Connecting to localhost:47018
+2017-12-04T18:12:28.823+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Successfully connected to localhost:47018, took 0ms (1 connections now open to localhost:47018)
+2017-12-04T18:12:30.208+0900 I -        [conn205] end connection 127.0.0.1:52424 (2 connections now open)
+2017-12-04T18:12:48.086+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:52630 #206 (2 connections now open)
+2017-12-04T18:12:48.101+0900 I -        [conn206] end connection 127.0.0.1:52630 (2 connections now open)
+2017-12-04T18:12:48.104+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:52632 #207 (2 connections now open)
+2017-12-04T18:12:51.639+0900 I -        [conn207] end connection 127.0.0.1:52632 (2 connections now open)
+2017-12-04T18:13:00.998+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:52736 #208 (2 connections now open)
+2017-12-04T18:13:01.016+0900 I -        [conn208] end connection 127.0.0.1:52736 (2 connections now open)
+2017-12-04T18:13:01.019+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:52738 #209 (2 connections now open)
+2017-12-04T18:14:03.519+0900 I -        [conn209] end connection 127.0.0.1:52738 (2 connections now open)
+2017-12-04T18:14:05.255+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:53264 #210 (2 connections now open)
+2017-12-04T18:14:05.269+0900 I -        [conn210] end connection 127.0.0.1:53264 (2 connections now open)
+2017-12-04T18:14:05.272+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:53266 #211 (2 connections now open)
+2017-12-04T18:14:48.469+0900 I -        [conn211] end connection 127.0.0.1:53266 (2 connections now open)
+2017-12-04T18:14:49.501+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:53626 #212 (2 connections now open)
+2017-12-04T18:14:49.516+0900 I -        [conn212] end connection 127.0.0.1:53626 (2 connections now open)
+2017-12-04T18:14:49.518+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:53628 #213 (2 connections now open)
+2017-12-04T18:15:43.197+0900 I -        [conn213] end connection 127.0.0.1:53628 (2 connections now open)
+2017-12-04T18:15:44.280+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:54082 #214 (2 connections now open)
+2017-12-04T18:15:44.295+0900 I -        [conn214] end connection 127.0.0.1:54082 (2 connections now open)
+2017-12-04T18:15:44.298+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:54084 #215 (2 connections now open)
+2017-12-04T18:15:58.262+0900 I -        [conn215] end connection 127.0.0.1:54084 (2 connections now open)
+2017-12-04T18:15:59.263+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:54210 #216 (2 connections now open)
+2017-12-04T18:15:59.278+0900 I -        [conn216] end connection 127.0.0.1:54210 (2 connections now open)
+2017-12-04T18:15:59.281+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:54212 #217 (2 connections now open)
+2017-12-04T18:16:03.402+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Connecting to localhost:47018
+2017-12-04T18:16:03.404+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T18:27:14.146+0900 I -        [conn217] end connection 127.0.0.1:54212 (2 connections now open)
+2017-12-04T18:27:57.971+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:60038 #218 (2 connections now open)
+2017-12-04T18:27:57.986+0900 I -        [conn218] end connection 127.0.0.1:60038 (2 connections now open)
+2017-12-04T18:27:57.989+0900 I NETWORK  [thread2] connection accepted from 127.0.0.1:60040 #219 (2 connections now open)
+2017-12-04T18:28:04.413+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Connecting to localhost:47018
+2017-12-04T18:28:04.416+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-0-0] Successfully connected to localhost:47018, took 3ms (1 connections now open to localhost:47018)
+2017-12-04T18:28:04.432+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Connecting to localhost:47018
+2017-12-04T18:28:04.434+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-1-0] Successfully connected to localhost:47018, took 2ms (1 connections now open to localhost:47018)
+2017-12-04T18:28:13.296+0900 I NETWORK  [conn219] Successfully connected to localhost:47018 (1 connections now open to localhost:47018 with a 0 second timeout)
+2017-12-04T18:28:13.307+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Connecting to localhost:47018
+2017-12-04T18:28:13.308+0900 I ASIO     [NetworkInterfaceASIO-TaskExecutorPool-2-0] Successfully connected to localhost:47018, took 1ms (1 connections now open to localhost:47018)
+2017-12-04T18:29:30.880+0900 I -        [conn219] end connection 127.0.0.1:60040 (2 connections now open)
+2017-12-04T18:29:32.912+0900 I -        [conn185] end connection 127.0.0.1:35768 (1 connection now open)

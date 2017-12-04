@@ -338,3 +338,63 @@
 2017-12-04T15:58:30.263+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57019
 2017-12-04T15:58:30.266+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57019, took 3ms (3 connections now open to localhost:57019)
 2017-12-04T15:59:30.263+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57019 because the pool meets constraints; 2 connections to that host remain open
+2017-12-04T16:45:25.186+0900 I REPL     [ReplicationExecutor] Starting an election, since we've seen no PRIMARY in the past 10000ms
+2017-12-04T16:45:25.186+0900 I REPL     [ReplicationExecutor] conducting a dry run election to see if we could be elected
+2017-12-04T16:45:25.186+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Connecting to localhost:57018
+2017-12-04T16:45:25.186+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Connecting to localhost:57019
+2017-12-04T16:45:25.191+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Successfully connected to localhost:57018, took 5ms (2 connections now open to localhost:57018)
+2017-12-04T16:45:25.191+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Successfully connected to localhost:57019, took 5ms (2 connections now open to localhost:57019)
+2017-12-04T16:45:25.196+0900 I REPL     [ReplicationExecutor] VoteRequester(term 2 dry run) received a yes vote from localhost:57019; response message: { term: 2, voteGranted: true, reason: "", ok: 1.0 }
+2017-12-04T16:45:25.196+0900 I REPL     [ReplicationExecutor] dry election run succeeded, running for election
+2017-12-04T16:45:25.200+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:46774 #59 (16 connections now open)
+2017-12-04T16:45:25.201+0900 I NETWORK  [conn59] received client metadata from 127.0.0.1:46774 conn59: { driver: { name: "NetworkInterfaceASIO-Replication", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T16:45:25.205+0900 I REPL     [ReplicationExecutor] VoteRequester(term 3) received a no vote from localhost:57018 with reason "already voted for another candidate this term"; response message: { term: 3, voteGranted: false, reason: "already voted for another candidate this term", ok: 1.0 }
+2017-12-04T16:45:25.207+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 1094 secs, remote host 127.0.0.1:37018)
+2017-12-04T16:45:25.208+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 1094 secs, remote host 127.0.0.1:47019)
+2017-12-04T16:45:25.208+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 1094 secs, remote host 127.0.0.1:57019)
+2017-12-04T16:45:25.215+0900 I REPL     [ReplicationExecutor] VoteRequester(term 3) received a yes vote from localhost:57019; response message: { term: 2, voteGranted: true, reason: "", ok: 1.0 }
+2017-12-04T16:45:25.224+0900 I REPL     [ReplicationExecutor] election succeeded, assuming primary role in term 3
+2017-12-04T16:45:25.224+0900 I REPL     [ReplicationExecutor] transition to PRIMARY
+2017-12-04T16:45:25.224+0900 I REPL     [ReplicationExecutor] Entering primary catch-up mode.
+2017-12-04T16:45:25.229+0900 W REPL     [rsBackgroundSync] Fetcher stopped querying remote oplog with error: InvalidSyncSource: sync source localhost:57019 (config version: 1; last applied optime: { ts: Timestamp 1512372445000|1, t: 2 }; sync source index: -1; primary index: -1) is no longer valid
+2017-12-04T16:45:25.256+0900 I NETWORK  [replSetDistLockPinger] Marking host localhost:57041 as failed :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T16:45:25.256+0900 W SHARDING [replSetDistLockPinger] pinging failed for distributed lock pinger :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T16:45:25.263+0900 I REPL     [ReplicationExecutor] Member localhost:57019 is now in state SECONDARY
+2017-12-04T16:45:25.263+0900 I REPL     [ReplicationExecutor] Caught up to the latest optime known via heartbeats after becoming primary.
+2017-12-04T16:45:25.263+0900 I REPL     [ReplicationExecutor] Exited primary catch-up mode.
+2017-12-04T16:45:25.904+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57019 because the pool meets constraints; 1 connections to that host remain open
+2017-12-04T16:45:25.904+0900 I REPL     [SyncSourceFeedback] SyncSourceFeedback error sending update to localhost:57019: InvalidSyncSource: Sync source was cleared. Was localhost:57019
+2017-12-04T16:45:27.186+0900 I REPL     [rsSync] transition to primary complete; database writes are now permitted
+2017-12-04T16:45:30.232+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:46836 #60 (17 connections now open)
+2017-12-04T16:45:30.233+0900 I NETWORK  [conn60] received client metadata from 127.0.0.1:46836 conn60: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T16:45:30.235+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:46838 #61 (18 connections now open)
+2017-12-04T16:45:30.235+0900 I NETWORK  [conn61] received client metadata from 127.0.0.1:46838 conn61: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T16:45:31.190+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:46854 #62 (19 connections now open)
+2017-12-04T16:45:31.191+0900 I NETWORK  [conn62] received client metadata from 127.0.0.1:46854 conn62: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T16:45:31.194+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:46858 #63 (20 connections now open)
+2017-12-04T16:45:31.195+0900 I NETWORK  [conn63] received client metadata from 127.0.0.1:46858 conn63: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T16:45:32.330+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 7 secs, remote host 127.0.0.1:57041)
+2017-12-04T16:45:32.332+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57041 (1 connections now open to localhost:57041 with a 5 second timeout)
+2017-12-04T16:45:32.334+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47019 (1 connections now open to localhost:47019 with a 5 second timeout)
+2017-12-04T16:45:32.339+0900 W NETWORK  [ReplicaSetMonitor-TaskExecutor-0] No primary detected for set s1
+2017-12-04T16:45:32.340+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57019 (1 connections now open to localhost:57019 with a 5 second timeout)
+2017-12-04T16:45:32.343+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37018 (1 connections now open to localhost:37018 with a 5 second timeout)
+2017-12-04T16:45:51.232+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:47170 #64 (21 connections now open)
+2017-12-04T16:45:51.233+0900 I NETWORK  [conn64] received client metadata from 127.0.0.1:47170 conn64: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T16:45:55.256+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T16:45:55.260+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 4ms (1 connections now open to localhost:57042)
+2017-12-04T16:46:25.191+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Ending idle connection to host localhost:57018 because the pool meets constraints; 1 connections to that host remain open
+2017-12-04T16:46:25.191+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Ending idle connection to host localhost:57019 because the pool meets constraints; 1 connections to that host remain open
+2017-12-04T16:46:25.201+0900 I -        [conn59] end connection 127.0.0.1:46774 (21 connections now open)
+2017-12-04T17:16:32.083+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T17:16:32.086+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 3ms (1 connections now open to localhost:57041)
+2017-12-04T17:34:03.105+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T17:34:03.106+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T17:44:27.290+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:48708 #65 (21 connections now open)
+2017-12-04T17:44:27.290+0900 I NETWORK  [conn65] received client metadata from 127.0.0.1:48708 conn65: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T17:45:27.290+0900 I -        [conn63] end connection 127.0.0.1:46858 (21 connections now open)
+2017-12-04T17:56:52.309+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:54804 #66 (21 connections now open)
+2017-12-04T17:56:52.310+0900 I NETWORK  [conn66] received client metadata from 127.0.0.1:54804 conn66: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T17:57:52.310+0900 I -        [conn65] end connection 127.0.0.1:48708 (21 connections now open)
+2017-12-04T18:27:33.223+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T18:27:33.224+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
