@@ -157,3 +157,96 @@
 2017-12-03T22:29:40.876+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
 2017-12-03T22:45:40.905+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
 2017-12-03T22:45:40.907+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-03T23:31:41.036+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T23:31:41.036+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 0ms (1 connections now open to localhost:57041)
+2017-12-03T23:34:53.034+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37017
+2017-12-03T23:34:53.036+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37017, took 2ms (3 connections now open to localhost:37017)
+2017-12-03T23:35:53.035+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37017 because the pool meets constraints; 2 connections to that host remain open
+2017-12-03T23:57:11.080+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T23:57:11.081+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T00:17:41.129+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T00:17:41.133+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 4ms (1 connections now open to localhost:57041)
+2017-12-04T00:35:11.169+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T00:35:11.173+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 4ms (1 connections now open to localhost:57042)
+2017-12-04T01:11:13.204+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37017
+2017-12-04T01:11:13.206+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37017, took 2ms (3 connections now open to localhost:37017)
+2017-12-04T01:12:13.205+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37017 because the pool meets constraints; 2 connections to that host remain open
+2017-12-04T01:56:41.379+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T01:56:41.381+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T02:08:53.325+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37017
+2017-12-04T02:08:53.326+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37017, took 2ms (3 connections now open to localhost:37017)
+2017-12-04T02:09:53.325+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37017 because the pool meets constraints; 2 connections to that host remain open
+2017-12-04T02:35:11.482+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T02:35:11.484+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T03:20:41.600+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T03:20:41.602+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T04:39:41.809+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T04:39:41.809+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 0ms (1 connections now open to localhost:57041)
+2017-12-04T05:18:43.709+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37017
+2017-12-04T05:18:43.710+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37017, took 1ms (3 connections now open to localhost:37017)
+2017-12-04T05:19:43.710+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37017 because the pool meets constraints; 2 connections to that host remain open
+2017-12-04T05:25:41.927+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T05:25:41.929+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T05:34:41.950+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T05:34:41.952+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T05:43:41.973+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T05:43:41.975+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 3ms (1 connections now open to localhost:57041)
+2017-12-04T05:50:11.990+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T05:50:11.992+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T06:13:08.822+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37017
+2017-12-04T06:13:08.825+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37017, took 3ms (3 connections now open to localhost:37017)
+2017-12-04T06:14:08.824+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37017 because the pool meets constraints; 2 connections to that host remain open
+2017-12-04T06:24:12.085+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T06:24:12.086+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T07:19:43.959+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37017
+2017-12-04T07:19:43.960+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37017, took 1ms (3 connections now open to localhost:37017)
+2017-12-04T07:20:43.960+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37017 because the pool meets constraints; 2 connections to that host remain open
+2017-12-04T07:21:33.960+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37017
+2017-12-04T07:21:33.962+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37017, took 2ms (3 connections now open to localhost:37017)
+2017-12-04T07:22:33.961+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37017 because the pool meets constraints; 2 connections to that host remain open
+2017-12-04T07:25:42.241+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T07:25:42.243+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T07:44:42.292+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T07:44:42.297+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 5ms (1 connections now open to localhost:57041)
+2017-12-04T08:00:42.334+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T08:00:42.336+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T08:07:54.066+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37017
+2017-12-04T08:07:54.070+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37017, took 5ms (3 connections now open to localhost:37017)
+2017-12-04T08:08:54.066+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37017 because the pool meets constraints; 2 connections to that host remain open
+2017-12-04T15:41:54.209+0900 I REPL     [ReplicationExecutor] Member localhost:37018 is now in state PRIMARY
+2017-12-04T15:41:54.209+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:43374 #20 (16 connections now open)
+2017-12-04T15:41:54.211+0900 I NETWORK  [replSetDistLockPinger] Marking host localhost:57040 as failed :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T15:41:54.212+0900 W SHARDING [replSetDistLockPinger] pinging failed for distributed lock pinger :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T15:41:54.212+0900 I NETWORK  [conn20] received client metadata from 127.0.0.1:43374 conn20: { driver: { name: "NetworkInterfaceASIO-Replication", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:41:54.215+0900 I REPL     [replication-0] Choosing new sync source because our current sync source, localhost:37017, has an OpTime ({ ts: Timestamp 1512342829000|1, t: 1 }) which is not ahead of ours ({ ts: Timestamp 1512342829000|1, t: 1 }), it does not have a sync source, and it's not the primary (sync source does not know the primary)
+2017-12-04T15:41:54.215+0900 I REPL     [replication-0] Canceling oplog query due to OplogQueryMetadata. We have to choose a new sync source. Current source: localhost:37017, OpTime { ts: Timestamp 1512342829000|1, t: 1 }, its sync source index:-1
+2017-12-04T15:41:54.215+0900 W REPL     [rsBackgroundSync] Fetcher stopped querying remote oplog with error: InvalidSyncSource: sync source localhost:37017 (config version: 1; last applied optime: { ts: Timestamp 1512342829000|1, t: 1 }; sync source index: -1; primary index: -1) is no longer valid
+2017-12-04T15:41:54.215+0900 I REPL     [rsBackgroundSync] could not find member to sync from
+2017-12-04T15:41:54.215+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Connecting to localhost:37017
+2017-12-04T15:41:54.215+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Ending connection to host localhost:37017 due to bad connection status; 1 connections to that host remain open
+2017-12-04T15:41:54.217+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Successfully connected to localhost:37017, took 2ms (1 connections now open to localhost:37017)
+2017-12-04T15:41:54.218+0900 I REPL     [ReplicationExecutor] Member localhost:37017 is now in state SECONDARY
+2017-12-04T15:41:57.019+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37017 because the pool meets constraints; 1 connections to that host remain open
+2017-12-04T15:41:57.019+0900 I REPL     [SyncSourceFeedback] SyncSourceFeedback error sending update to localhost:37017: InvalidSyncSource: Sync source was cleared. Was localhost:37017
+2017-12-04T15:41:59.216+0900 I REPL     [rsBackgroundSync] sync source candidate: localhost:37018
+2017-12-04T15:41:59.216+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37018
+2017-12-04T15:41:59.216+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37018, took 0ms (1 connections now open to localhost:37018)
+2017-12-04T15:41:59.217+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37018
+2017-12-04T15:41:59.217+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37018, took 0ms (2 connections now open to localhost:37018)
+2017-12-04T15:42:10.306+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T15:42:10.307+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T15:42:10.586+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 16 secs, remote host 127.0.0.1:37017)
+2017-12-04T15:42:10.588+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37017 (1 connections now open to localhost:37017 with a 5 second timeout)
+2017-12-04T15:42:10.589+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 16 secs, remote host 127.0.0.1:57040)
+2017-12-04T15:42:10.591+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57040 (1 connections now open to localhost:57040 with a 5 second timeout)
+2017-12-04T15:42:10.593+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 16 secs, remote host 127.0.0.1:47017)
+2017-12-04T15:42:10.594+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47017 (1 connections now open to localhost:47017 with a 5 second timeout)
+2017-12-04T15:42:10.596+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 16 secs, remote host 127.0.0.1:57017)
+2017-12-04T15:42:10.597+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57017 (1 connections now open to localhost:57017 with a 5 second timeout)
+2017-12-04T15:42:54.201+0900 I -        [conn5] end connection 127.0.0.1:39042 (16 connections now open)
+2017-12-04T15:44:10.312+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T15:44:10.314+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 3ms (1 connections now open to localhost:57042)
+2017-12-04T16:11:11.110+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T16:11:11.113+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 3ms (1 connections now open to localhost:57042)
+2017-12-04T16:15:41.121+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-04T16:15:41.123+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)

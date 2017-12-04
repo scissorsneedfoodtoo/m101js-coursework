@@ -220,3 +220,244 @@
 2017-12-03T22:44:43.472+0900 I NETWORK  [conn46] received client metadata from 127.0.0.1:54616 conn46: { driver: { name: "NetworkInterfaceASIO-TaskExecutorPool-3", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
 2017-12-03T22:49:41.088+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
 2017-12-03T22:49:41.089+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-03T22:53:40.776+0900 I -        [conn44] end connection 127.0.0.1:54600 (23 connections now open)
+2017-12-03T22:53:44.959+0900 I -        [conn46] end connection 127.0.0.1:54616 (22 connections now open)
+2017-12-03T22:58:29.674+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:54758 #47 (22 connections now open)
+2017-12-03T22:58:29.675+0900 I NETWORK  [conn47] received client metadata from 127.0.0.1:54758 conn47: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T22:59:29.675+0900 I -        [conn45] end connection 127.0.0.1:54606 (22 connections now open)
+2017-12-03T23:17:11.151+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-03T23:17:11.153+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-03T23:25:19.729+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:54814 #48 (22 connections now open)
+2017-12-03T23:25:19.729+0900 I NETWORK  [conn48] received client metadata from 127.0.0.1:54814 conn48: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-03T23:26:19.729+0900 I -        [conn32] end connection 127.0.0.1:53766 (22 connections now open)
+2017-12-03T23:51:11.232+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-03T23:51:11.233+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-04T00:13:29.813+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55156 #49 (22 connections now open)
+2017-12-04T00:13:29.813+0900 I NETWORK  [conn49] received client metadata from 127.0.0.1:55156 conn49: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T00:14:29.814+0900 I -        [conn47] end connection 127.0.0.1:54758 (22 connections now open)
+2017-12-04T00:19:19.824+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55174 #50 (22 connections now open)
+2017-12-04T00:19:19.824+0900 I NETWORK  [conn50] received client metadata from 127.0.0.1:55174 conn50: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T00:20:19.824+0900 I -        [conn48] end connection 127.0.0.1:54814 (22 connections now open)
+2017-12-04T00:23:49.836+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55188 #51 (22 connections now open)
+2017-12-04T00:23:49.839+0900 I NETWORK  [conn51] received client metadata from 127.0.0.1:55188 conn51: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T00:24:49.837+0900 I -        [conn49] end connection 127.0.0.1:55156 (22 connections now open)
+2017-12-04T00:59:11.396+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T00:59:11.397+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T01:09:19.921+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55318 #52 (22 connections now open)
+2017-12-04T01:09:19.921+0900 I NETWORK  [conn52] received client metadata from 127.0.0.1:55318 conn52: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T01:10:19.921+0900 I -        [conn50] end connection 127.0.0.1:55174 (22 connections now open)
+2017-12-04T01:17:41.445+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T01:17:41.447+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T01:21:14.941+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55344 #53 (22 connections now open)
+2017-12-04T01:21:14.941+0900 I NETWORK  [conn53] received client metadata from 127.0.0.1:55344 conn53: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T01:22:14.941+0900 I -        [conn52] end connection 127.0.0.1:55318 (22 connections now open)
+2017-12-04T01:23:41.462+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T01:23:41.463+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-04T01:24:49.946+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55360 #54 (22 connections now open)
+2017-12-04T01:24:49.947+0900 I NETWORK  [conn54] received client metadata from 127.0.0.1:55360 conn54: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T01:25:49.947+0900 I -        [conn51] end connection 127.0.0.1:55188 (22 connections now open)
+2017-12-04T01:28:59.955+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55412 #55 (22 connections now open)
+2017-12-04T01:28:59.956+0900 I NETWORK  [conn55] received client metadata from 127.0.0.1:55412 conn55: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T01:29:59.956+0900 I -        [conn54] end connection 127.0.0.1:55360 (22 connections now open)
+2017-12-04T01:43:49.993+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55460 #56 (22 connections now open)
+2017-12-04T01:43:49.994+0900 I NETWORK  [conn56] received client metadata from 127.0.0.1:55460 conn56: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T01:44:41.515+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T01:44:41.517+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T01:44:49.994+0900 I -        [conn53] end connection 127.0.0.1:55344 (22 connections now open)
+2017-12-04T01:47:29.991+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55474 #57 (22 connections now open)
+2017-12-04T01:47:29.991+0900 I NETWORK  [conn57] received client metadata from 127.0.0.1:55474 conn57: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T01:48:29.991+0900 I -        [conn56] end connection 127.0.0.1:55460 (22 connections now open)
+2017-12-04T01:52:50.016+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55484 #58 (22 connections now open)
+2017-12-04T01:52:50.017+0900 I NETWORK  [conn58] received client metadata from 127.0.0.1:55484 conn58: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T01:53:50.019+0900 I -        [conn58] end connection 127.0.0.1:55484 (22 connections now open)
+2017-12-04T02:14:20.058+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55550 #59 (22 connections now open)
+2017-12-04T02:14:20.059+0900 I NETWORK  [conn59] received client metadata from 127.0.0.1:55550 conn59: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T02:15:20.059+0900 I -        [conn57] end connection 127.0.0.1:55474 (22 connections now open)
+2017-12-04T02:26:11.621+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T02:26:11.624+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 3ms (1 connections now open to localhost:57041)
+2017-12-04T02:35:20.103+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55610 #60 (22 connections now open)
+2017-12-04T02:35:20.103+0900 I NETWORK  [conn60] received client metadata from 127.0.0.1:55610 conn60: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T02:36:20.097+0900 I -        [conn59] end connection 127.0.0.1:55550 (22 connections now open)
+2017-12-04T02:39:10.105+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55626 #61 (22 connections now open)
+2017-12-04T02:39:10.105+0900 I NETWORK  [conn61] received client metadata from 127.0.0.1:55626 conn61: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T02:40:40.105+0900 I -        [conn61] end connection 127.0.0.1:55626 (22 connections now open)
+2017-12-04T03:02:11.716+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T03:02:11.717+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T03:06:25.160+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55690 #62 (22 connections now open)
+2017-12-04T03:06:25.160+0900 I NETWORK  [conn62] received client metadata from 127.0.0.1:55690 conn62: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T03:07:25.161+0900 I -        [conn60] end connection 127.0.0.1:55610 (22 connections now open)
+2017-12-04T03:07:50.164+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55696 #63 (22 connections now open)
+2017-12-04T03:07:50.165+0900 I NETWORK  [conn63] received client metadata from 127.0.0.1:55696 conn63: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T03:08:50.165+0900 I -        [conn55] end connection 127.0.0.1:55412 (22 connections now open)
+2017-12-04T03:13:00.171+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55712 #64 (22 connections now open)
+2017-12-04T03:13:00.172+0900 I NETWORK  [conn64] received client metadata from 127.0.0.1:55712 conn64: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T03:14:00.172+0900 I -        [conn63] end connection 127.0.0.1:55696 (22 connections now open)
+2017-12-04T03:22:50.194+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55734 #65 (22 connections now open)
+2017-12-04T03:22:50.197+0900 I NETWORK  [conn65] received client metadata from 127.0.0.1:55734 conn65: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T03:23:50.195+0900 I -        [conn62] end connection 127.0.0.1:55690 (22 connections now open)
+2017-12-04T03:25:11.771+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T03:25:11.773+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T03:30:40.210+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55798 #66 (22 connections now open)
+2017-12-04T03:30:40.210+0900 I NETWORK  [conn66] received client metadata from 127.0.0.1:55798 conn66: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T03:31:40.211+0900 I -        [conn65] end connection 127.0.0.1:55734 (22 connections now open)
+2017-12-04T03:47:41.827+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T03:47:41.829+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T03:56:25.256+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:55872 #67 (22 connections now open)
+2017-12-04T03:56:25.257+0900 I NETWORK  [conn67] received client metadata from 127.0.0.1:55872 conn67: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T03:57:25.257+0900 I -        [conn64] end connection 127.0.0.1:55712 (22 connections now open)
+2017-12-04T03:59:11.856+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T03:59:11.858+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T04:04:41.869+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T04:04:41.871+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T04:10:41.886+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T04:10:41.887+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T04:19:41.908+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T04:19:41.910+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T04:23:41.920+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T04:23:41.922+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T04:23:50.318+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56008 #68 (22 connections now open)
+2017-12-04T04:23:50.319+0900 I NETWORK  [conn68] received client metadata from 127.0.0.1:56008 conn68: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T04:25:10.312+0900 I -        [conn66] end connection 127.0.0.1:55798 (22 connections now open)
+2017-12-04T04:45:50.355+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56066 #69 (22 connections now open)
+2017-12-04T04:45:50.356+0900 I NETWORK  [conn69] received client metadata from 127.0.0.1:56066 conn69: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T04:46:50.356+0900 I -        [conn67] end connection 127.0.0.1:55872 (22 connections now open)
+2017-12-04T04:57:30.383+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56100 #70 (22 connections now open)
+2017-12-04T04:57:30.384+0900 I NETWORK  [conn70] received client metadata from 127.0.0.1:56100 conn70: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T04:58:30.384+0900 I -        [conn68] end connection 127.0.0.1:56008 (22 connections now open)
+2017-12-04T05:12:42.057+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T05:12:42.059+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T05:27:12.094+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T05:27:12.096+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T05:33:42.111+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T05:33:42.113+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T05:43:12.135+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T05:43:12.136+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T05:45:40.480+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56278 #71 (22 connections now open)
+2017-12-04T05:45:40.480+0900 I NETWORK  [conn71] received client metadata from 127.0.0.1:56278 conn71: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T05:46:40.480+0900 I -        [conn70] end connection 127.0.0.1:56100 (22 connections now open)
+2017-12-04T05:46:45.475+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56284 #72 (22 connections now open)
+2017-12-04T05:46:45.475+0900 I NETWORK  [conn72] received client metadata from 127.0.0.1:56284 conn72: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T05:47:45.476+0900 I -        [conn69] end connection 127.0.0.1:56066 (22 connections now open)
+2017-12-04T05:47:50.479+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56286 #73 (22 connections now open)
+2017-12-04T05:47:50.480+0900 I NETWORK  [conn73] received client metadata from 127.0.0.1:56286 conn73: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T05:48:50.480+0900 I -        [conn71] end connection 127.0.0.1:56278 (22 connections now open)
+2017-12-04T05:51:12.155+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T05:51:12.157+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T06:19:05.542+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56362 #74 (22 connections now open)
+2017-12-04T06:19:05.543+0900 I NETWORK  [conn74] received client metadata from 127.0.0.1:56362 conn74: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T06:20:05.543+0900 I -        [conn73] end connection 127.0.0.1:56286 (22 connections now open)
+2017-12-04T06:42:40.591+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56432 #75 (22 connections now open)
+2017-12-04T06:42:40.594+0900 I NETWORK  [conn75] received client metadata from 127.0.0.1:56432 conn75: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T06:43:50.590+0900 I -        [conn74] end connection 127.0.0.1:56362 (22 connections now open)
+2017-12-04T07:07:10.635+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56500 #76 (22 connections now open)
+2017-12-04T07:07:10.635+0900 I NETWORK  [conn76] received client metadata from 127.0.0.1:56500 conn76: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T07:08:10.635+0900 I -        [conn75] end connection 127.0.0.1:56432 (22 connections now open)
+2017-12-04T07:16:12.379+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T07:16:12.380+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-04T07:28:42.413+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T07:28:42.414+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-04T07:56:12.481+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T07:56:12.485+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 4ms (1 connections now open to localhost:57041)
+2017-12-04T07:56:50.732+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56694 #77 (22 connections now open)
+2017-12-04T07:56:50.733+0900 I NETWORK  [conn77] received client metadata from 127.0.0.1:56694 conn77: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T07:57:50.733+0900 I -        [conn76] end connection 127.0.0.1:56500 (22 connections now open)
+2017-12-04T08:13:25.762+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56790 #78 (22 connections now open)
+2017-12-04T08:13:25.762+0900 I NETWORK  [conn78] received client metadata from 127.0.0.1:56790 conn78: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:41:54.179+0900 I REPL     [ReplicationExecutor] can't see a majority of the set, relinquishing primary
+2017-12-04T15:41:54.199+0900 I REPL     [ReplicationExecutor] Stepping down from primary in response to heartbeat
+2017-12-04T15:41:54.196+0900 I -        [conn72] end connection 127.0.0.1:56284 (22 connections now open)
+2017-12-04T15:41:54.199+0900 I REPL     [ReplicationExecutor] Member localhost:47019 is now in state SECONDARY
+2017-12-04T15:41:54.198+0900 I -        [conn77] end connection 127.0.0.1:56694 (22 connections now open)
+2017-12-04T15:41:54.199+0900 I REPL     [ReplicationExecutor] Member localhost:47018 is now in state SECONDARY
+2017-12-04T15:41:54.199+0900 I COMMAND  [conn78] command local.oplog.rs command: getMore { getMore: 18148934450, collection: "oplog.rs", maxTimeMS: 5000, term: 1, lastKnownCommittedOpTime: { ts: Timestamp 1512342825000|1, t: 1 } } originatingCommand: { find: "oplog.rs", filter: { ts: { $gte: Timestamp 1512302451000|1 } }, tailable: true, oplogReplay: true, awaitData: true, maxTimeMS: 60000, term: 1 } planSummary: COLLSCAN cursorid:18148934450 keysExamined:0 docsExamined:0 numYields:0 nreturned:0 reslen:563 locks:{ Global: { acquireCount: { r: 4 } }, Database: { acquireCount: { r: 2 } }, oplog: { acquireCount: { r: 2 } } } protocol:op_command 26883433ms
+2017-12-04T15:41:54.199+0900 I -        [conn78] end connection 127.0.0.1:56790 (20 connections now open)
+2017-12-04T15:41:54.201+0900 I REPL     [replExecDBWorker-2] transition to SECONDARY
+2017-12-04T15:41:54.201+0900 I NETWORK  [replExecDBWorker-2] legacy transport layer closing all connections
+2017-12-04T15:41:54.202+0900 I NETWORK  [replExecDBWorker-2] Skip closing connection for connection # 22
+2017-12-04T15:41:54.202+0900 I NETWORK  [replExecDBWorker-2] Skip closing connection for connection # 3
+2017-12-04T15:41:54.202+0900 I NETWORK  [replExecDBWorker-2] Skip closing connection for connection # 2
+2017-12-04T15:41:54.202+0900 I -        [conn36] end connection 127.0.0.1:54068 (19 connections now open)
+2017-12-04T15:41:54.202+0900 I -        [conn17] end connection 127.0.0.1:52818 (18 connections now open)
+2017-12-04T15:41:54.202+0900 I -        [conn13] end connection 127.0.0.1:52720 (17 connections now open)
+2017-12-04T15:41:54.202+0900 I -        [conn11] end connection 127.0.0.1:52682 (17 connections now open)
+2017-12-04T15:41:54.202+0900 I -        [conn34] end connection 127.0.0.1:53780 (15 connections now open)
+2017-12-04T15:41:54.202+0900 I -        [conn23] end connection 127.0.0.1:52896 (14 connections now open)
+2017-12-04T15:41:54.202+0900 I -        [conn26] end connection 127.0.0.1:52944 (13 connections now open)
+2017-12-04T15:41:54.202+0900 I -        [conn15] end connection 127.0.0.1:52748 (12 connections now open)
+2017-12-04T15:41:54.203+0900 I -        [conn21] end connection 127.0.0.1:52868 (11 connections now open)
+2017-12-04T15:41:54.203+0900 I -        [conn39] end connection 127.0.0.1:54180 (10 connections now open)
+2017-12-04T15:41:54.203+0900 I -        [conn25] end connection 127.0.0.1:52940 (9 connections now open)
+2017-12-04T15:41:54.203+0900 I -        [conn24] end connection 127.0.0.1:52914 (8 connections now open)
+2017-12-04T15:41:54.203+0900 I -        [conn20] end connection 127.0.0.1:52846 (7 connections now open)
+2017-12-04T15:41:54.203+0900 I -        [conn16] end connection 127.0.0.1:52768 (6 connections now open)
+2017-12-04T15:41:54.202+0900 I -        [conn14] end connection 127.0.0.1:52722 (12 connections now open)
+2017-12-04T15:41:54.202+0900 I -        [conn18] end connection 127.0.0.1:52820 (12 connections now open)
+2017-12-04T15:41:54.210+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56800 #79 (4 connections now open)
+2017-12-04T15:41:54.211+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56822 #80 (5 connections now open)
+2017-12-04T15:41:54.211+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56824 #81 (6 connections now open)
+2017-12-04T15:41:54.211+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56826 #82 (7 connections now open)
+2017-12-04T15:41:54.211+0900 I NETWORK  [conn81] received client metadata from 127.0.0.1:56824 conn81: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:41:54.211+0900 I NETWORK  [conn79] received client metadata from 127.0.0.1:56800 conn79: { driver: { name: "NetworkInterfaceASIO-Replication", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:41:54.211+0900 I NETWORK  [conn82] received client metadata from 127.0.0.1:56826 conn82: { driver: { name: "NetworkInterfaceASIO-Replication", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:41:54.211+0900 I NETWORK  [conn80] received client metadata from 127.0.0.1:56822 conn80: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:41:54.213+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56832 #83 (8 connections now open)
+2017-12-04T15:41:54.213+0900 I NETWORK  [replSetDistLockPinger] Marking host localhost:57040 as failed :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T15:41:54.213+0900 W SHARDING [replSetDistLockPinger] pinging failed for distributed lock pinger :: caused by :: PrimarySteppedDown: Primary stepped down while waiting for replication. 
+2017-12-04T15:41:54.216+0900 I NETWORK  [conn83] received client metadata from 127.0.0.1:56832 conn83: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:41:57.214+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56850 #84 (9 connections now open)
+2017-12-04T15:41:57.215+0900 I NETWORK  [conn84] received client metadata from 127.0.0.1:56850 conn84: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:41:57.599+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56860 #85 (10 connections now open)
+2017-12-04T15:41:57.599+0900 I NETWORK  [conn85] received client metadata from 127.0.0.1:56860 conn85: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:06.201+0900 I REPL     [ReplicationExecutor] Member localhost:47019 is now in state PRIMARY
+2017-12-04T15:42:07.239+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56876 #86 (11 connections now open)
+2017-12-04T15:42:07.239+0900 I NETWORK  [conn86] received client metadata from 127.0.0.1:56876 conn86: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.464+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T15:42:10.466+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-04T15:42:10.554+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56900 #87 (12 connections now open)
+2017-12-04T15:42:10.554+0900 I NETWORK  [conn87] received client metadata from 127.0.0.1:56900 conn87: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.593+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56918 #88 (13 connections now open)
+2017-12-04T15:42:10.594+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56920 #89 (14 connections now open)
+2017-12-04T15:42:10.594+0900 I NETWORK  [conn88] received client metadata from 127.0.0.1:56918 conn88: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.594+0900 I NETWORK  [conn89] received client metadata from 127.0.0.1:56920 conn89: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.598+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56928 #90 (15 connections now open)
+2017-12-04T15:42:10.598+0900 I NETWORK  [conn90] received client metadata from 127.0.0.1:56928 conn90: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.837+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 16 secs, remote host 127.0.0.1:57017)
+2017-12-04T15:42:10.839+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57017 (1 connections now open to localhost:57017 with a 5 second timeout)
+2017-12-04T15:42:10.841+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 16 secs, remote host 127.0.0.1:57040)
+2017-12-04T15:42:10.843+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57040 (1 connections now open to localhost:57040 with a 5 second timeout)
+2017-12-04T15:42:10.844+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 16 secs, remote host 127.0.0.1:47017)
+2017-12-04T15:42:10.844+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56946 #91 (16 connections now open)
+2017-12-04T15:42:10.845+0900 I NETWORK  [conn91] received client metadata from 127.0.0.1:56946 conn91: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.846+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47017 (1 connections now open to localhost:47017 with a 5 second timeout)
+2017-12-04T15:42:10.847+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56950 #92 (17 connections now open)
+2017-12-04T15:42:10.847+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 16 secs, remote host 127.0.0.1:37017)
+2017-12-04T15:42:10.847+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56952 #93 (18 connections now open)
+2017-12-04T15:42:10.847+0900 I NETWORK  [conn92] received client metadata from 127.0.0.1:56950 conn92: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.848+0900 I NETWORK  [conn93] received client metadata from 127.0.0.1:56952 conn93: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.849+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37017 (1 connections now open to localhost:37017 with a 5 second timeout)
+2017-12-04T15:42:10.875+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56964 #94 (19 connections now open)
+2017-12-04T15:42:10.875+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56966 #95 (20 connections now open)
+2017-12-04T15:42:10.875+0900 I NETWORK  [conn94] received client metadata from 127.0.0.1:56964 conn94: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.875+0900 I NETWORK  [conn95] received client metadata from 127.0.0.1:56966 conn95: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:10.879+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:56974 #96 (21 connections now open)
+2017-12-04T15:42:10.880+0900 I NETWORK  [conn96] received client metadata from 127.0.0.1:56974 conn96: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:12.180+0900 I REPL     [rsBackgroundSync] sync source candidate: localhost:47019
+2017-12-04T15:42:12.181+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:47019
+2017-12-04T15:42:12.183+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:47019, took 2ms (1 connections now open to localhost:47019)
+2017-12-04T15:42:12.184+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:47019
+2017-12-04T15:42:12.186+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:47019, took 1ms (2 connections now open to localhost:47019)
+2017-12-04T15:42:24.214+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-04T15:42:24.216+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-04T15:42:27.976+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:57000 #97 (22 connections now open)
+2017-12-04T15:42:27.976+0900 I NETWORK  [conn97] received client metadata from 127.0.0.1:57000 conn97: { driver: { name: "MongoDB Internal Client", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-04T15:42:54.206+0900 I -        [conn3] end connection 127.0.0.1:52498 (22 connections now open)
+2017-12-04T15:42:54.207+0900 I -        [conn2] end connection 127.0.0.1:52496 (21 connections now open)
+2017-12-04T15:42:54.222+0900 I -        [conn80] end connection 127.0.0.1:56822 (20 connections now open)
+2017-12-04T15:46:54.200+0900 I -        [conn22] end connection 127.0.0.1:52884 (19 connections now open)
+2017-12-04T15:46:54.224+0900 I -        [conn81] end connection 127.0.0.1:56824 (18 connections now open)
+2017-12-04T15:46:54.242+0900 I -        [conn83] end connection 127.0.0.1:56832 (17 connections now open)
+2017-12-04T15:46:57.232+0900 I -        [conn84] end connection 127.0.0.1:56850 (16 connections now open)
+2017-12-04T16:08:41.260+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-04T16:08:41.262+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-04T16:14:11.271+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-04T16:14:11.273+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)

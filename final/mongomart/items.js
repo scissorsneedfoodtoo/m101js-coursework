@@ -28,7 +28,6 @@ function ItemDAO(database) {
         "use strict";
 
         /*
-        * TODO-lab1A
         *
         * LAB #1A: Implement the getCategories() method.
         *
@@ -58,19 +57,21 @@ function ItemDAO(database) {
             num: {"$sum" : 1}
           }},
           {"$sort": {_id: 1} }
-        ];
+        ]
 
         this.db.collection("item").aggregate(pipeline).toArray(function(err, categories) {
-            assert.equal(null, err);
+            assert.equal(null, err)
 
-            var total = 0;
-            for (let i = 0; i < categories.length; i++) {
-              total += categories[i].num;
-            }
+            let total = 0
 
-            categories.unshift({_id: "All", num: total});
+            categories.map(function(category) {
+              total += category.num
+            })
 
-            callback(categories);
+            // add _id All with total num of items to front of item array
+            categories.unshift({_id: "All", num: total})
+
+            callback(categories)
         });
     }
 
@@ -79,7 +80,6 @@ function ItemDAO(database) {
         "use strict";
 
         /*
-         * TODO-lab1B
          *
          * LAB #1B: Implement the getItems() method.
          *
@@ -100,19 +100,20 @@ function ItemDAO(database) {
          *
          */
 
-        let queryDoc;
+        let queryDoc
         if (category == "All") {
-          queryDoc = {};
+          queryDoc = {}
         } else {
-          queryDoc = {category: category};
+          queryDoc = {category: category}
         }
 
-        var cursor = this.db.collection("item").find(queryDoc);
-        cursor.skip(page*itemsPerPage);
-        cursor.limit(itemsPerPage);
+        var cursor = this.db.collection("item").find(queryDoc)
+        cursor.sort({_id: 1})
+        cursor.skip(page * itemsPerPage)
+        cursor.limit(itemsPerPage)
         cursor.toArray(function(err, pageItems) {
-          assert.equal(null, err);
-          callback(pageItems);
+          assert.equal(null, err)
+          callback(pageItems)
         });
     }
 
@@ -120,10 +121,9 @@ function ItemDAO(database) {
     this.getNumItems = function(category, callback) {
         "use strict";
 
-        var numItems = 0;
+        let numItems = 0;
 
         /*
-         * TODO-lab1C:
          *
          * LAB #1C: Implement the getNumItems method()
          *
@@ -139,9 +139,9 @@ function ItemDAO(database) {
 
         let queryDoc;
         if (category == "All") {
-          queryDoc = {};
+          queryDoc = {}
         } else {
-          queryDoc = {category: category};
+          queryDoc = {category: category}
         }
 
         this.db.collection("item").find(queryDoc).count(function(err, count) {
