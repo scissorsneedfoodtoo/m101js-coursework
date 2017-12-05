@@ -29,7 +29,6 @@ function CartDAO(database) {
         "use strict";
 
         /*
-        * TODO-lab5
         *
         * LAB #5: Implement the getCart() method.
         *
@@ -38,19 +37,23 @@ function CartDAO(database) {
         *
         */
 
-        var userCart = {
+        let userCart = {
             userId: userId,
             items: []
         }
-        var dummyItem = this.createDummyItem();
-        userCart.items.push(dummyItem);
 
-        // TODO-lab5 Replace all code above (in this method).
+        this.db.collection("cart").find({userId: userId}).toArray(function(err, userCart) {
+          assert.equal(null, err)
+          callback(userCart[0])
+        })
 
-        // TODO Include the following line in the appropriate
-        // place within your code to pass the userCart to the
-        // callback.
-        callback(userCart);
+      //  // could also be implemented this way
+      //   this.db.collection("cart").find({userId: userId}).limit(1).next(function(err, doc) {
+      //     assert.equal(null, err);
+      //     assert.ok(doc);
+      //
+      //     callback(doc);
+      // });
     }
 
 
@@ -58,8 +61,6 @@ function CartDAO(database) {
         "use strict";
 
         /*
-         *
-         * TODO-lab6
          *
          * LAB: #6
          *
@@ -82,9 +83,18 @@ function CartDAO(database) {
          *
          */
 
-        callback(null);
-
-        // TODO-lab6 Replace all code above (in this method).
+        this.db.collection("cart")
+         .find({userId: userId, "items._id": itemId}, {"items.$": 1})
+         .limit(1)
+         .next(function(err, item) {
+           assert.equal(null, err);
+           console.log(err);
+           if (item != null) {
+             item = item.items[0];
+           }
+           console.log(item);
+           callback(item);
+        });
     }
 
 
@@ -158,7 +168,6 @@ function CartDAO(database) {
         "use strict";
 
         /*
-        * TODO-lab7
         *
         * LAB #7: Update the quantity of an item in the user's cart in the
         * database by setting quantity to the value passed in the quantity
@@ -174,17 +183,24 @@ function CartDAO(database) {
         *
         */
 
-        var userCart = {
-            userId: userId,
-            items: []
+        let updateDoc = {};
+
+        if (quantity == 0) {
+            updateDoc = { "$pull": { items: { _id: itemId } } };
+        } else {
+            updateDoc = { "$set": { "items.$.quantity": quantity } };
         }
-        var dummyItem = this.createDummyItem();
-        dummyItem.quantity = quantity;
-        userCart.items.push(dummyItem);
-        callback(userCart);
 
-        // TODO-lab7 Replace all code above (in this method).
-
+        this.db.collection("cart").findOneAndUpdate(
+            { userId: userId,
+              "items._id": itemId },
+            updateDoc,
+            { returnOriginal: false },
+            function(err, result) {
+              assert.equal(null, err);
+              console.log(result.value);
+              callback(result.value);
+        });
     }
 
     this.createDummyItem = function() {
