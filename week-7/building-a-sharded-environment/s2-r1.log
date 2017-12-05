@@ -629,3 +629,4 @@
 2017-12-05T16:08:39.267+0900 I -        [conn36] end connection 127.0.0.1:32868 (18 connections now open)
 2017-12-05T16:25:04.241+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:57017
 2017-12-05T16:25:04.244+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:57017, took 3ms (3 connections now open to localhost:57017)
+2017-12-05T16:26:04.242+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:57017 because the pool meets constraints; 2 connections to that host remain open

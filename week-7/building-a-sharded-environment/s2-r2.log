@@ -538,3 +538,5 @@
 2017-12-05T16:04:21.803+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
 2017-12-05T16:04:27.198+0900 I -        [conn41] end connection 127.0.0.1:43710 (16 connections now open)
 2017-12-05T16:04:27.208+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Ending idle connection to host localhost:57017 because the pool meets constraints; 1 connections to that host remain open
+2017-12-05T16:26:23.132+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-05T16:26:23.134+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
