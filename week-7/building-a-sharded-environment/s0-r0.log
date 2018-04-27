@@ -879,3 +879,282 @@
 2017-12-05T16:08:27.247+0900 I -        [conn89] end connection 127.0.0.1:51576 (18 connections now open)
 2017-12-05T16:08:27.254+0900 I -        [conn91] end connection 127.0.0.1:37920 (17 connections now open)
 2017-12-05T16:08:39.264+0900 I -        [conn96] end connection 127.0.0.1:41694 (16 connections now open)
+2017-12-05T17:08:56.217+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 2373 secs, remote host 127.0.0.1:57017)
+2017-12-05T17:08:56.217+0900 I NETWORK  [PeriodicTaskRunner] Socket closed remotely, no longer connected (idle 2373 secs, remote host 127.0.0.1:57042)
+2017-12-05T17:08:56.223+0900 I NETWORK  [replSetDistLockPinger] Marking host localhost:57042 as failed :: caused by :: NotMaster: not master
+2017-12-05T17:08:56.227+0900 I NETWORK  [replSetDistLockPinger] Successfully connected to localhost:57042 (1 connections now open to localhost:57042 with a 5 second timeout)
+2017-12-05T17:08:56.229+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-05T17:08:56.733+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-05T17:08:57.234+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-05T17:09:02.028+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57017 (1 connections now open to localhost:57017 with a 5 second timeout)
+2017-12-05T17:09:02.030+0900 W NETWORK  [ReplicaSetMonitor-TaskExecutor-0] No primary detected for set s2
+2017-12-05T17:09:02.030+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 6 secs, remote host 127.0.0.1:47018)
+2017-12-05T17:09:02.031+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47018 (1 connections now open to localhost:47018 with a 5 second timeout)
+2017-12-05T17:09:02.031+0900 W NETWORK  [ReplicaSetMonitor-TaskExecutor-0] No primary detected for set s1
+2017-12-05T17:10:01.484+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-05T17:10:01.486+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-05T17:16:31.499+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-05T17:16:31.502+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 3ms (1 connections now open to localhost:57040)
+2017-12-05T17:21:31.512+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-05T17:21:31.513+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-05T17:30:31.534+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-05T17:30:31.541+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 9ms (2 connections now open to localhost:57041)
+2017-12-05T17:32:01.542+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Ending idle connection to host localhost:57041 because the pool meets constraints; 1 connections to that host remain open
+2017-12-05T17:49:02.202+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-05T17:49:02.203+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-05T18:28:32.294+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-05T18:28:32.298+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 4ms (1 connections now open to localhost:57040)
+2017-12-05T19:06:32.395+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-05T19:06:32.396+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 1ms (1 connections now open to localhost:57040)
+2017-12-05T19:08:41.452+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37018
+2017-12-05T19:08:41.454+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37018, took 2ms (3 connections now open to localhost:37018)
+2017-12-05T19:09:41.453+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37018 because the pool meets constraints; 2 connections to that host remain open
+2017-12-05T19:11:02.405+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-05T19:11:02.406+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-05T19:20:21.475+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37018
+2017-12-05T19:20:21.480+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37018, took 5ms (3 connections now open to localhost:37018)
+2017-12-05T19:21:21.478+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37018 because the pool meets constraints; 2 connections to that host remain open
+2017-12-05T19:23:32.434+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-05T19:23:32.436+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-05T20:15:01.568+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37018
+2017-12-05T20:15:01.575+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37018, took 7ms (3 connections now open to localhost:37018)
+2017-12-05T20:16:01.572+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37018 because the pool meets constraints; 2 connections to that host remain open
+2017-12-05T20:35:32.599+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-05T20:35:32.603+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 4ms (1 connections now open to localhost:57040)
+2017-12-05T20:45:02.627+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-05T20:45:02.629+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-05T21:20:02.707+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-05T21:20:02.711+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 4ms (1 connections now open to localhost:57042)
+2017-12-05T22:02:02.800+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-05T22:02:02.803+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 3ms (1 connections now open to localhost:57042)
+2017-12-05T22:09:32.818+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-05T22:09:32.819+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-05T22:11:01.760+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37018
+2017-12-05T22:11:01.761+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37018, took 1ms (3 connections now open to localhost:37018)
+2017-12-05T22:12:01.760+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37018 because the pool meets constraints; 2 connections to that host remain open
+2017-12-05T22:46:02.899+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-05T22:46:02.902+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 3ms (1 connections now open to localhost:57040)
+2017-12-05T22:51:02.914+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-05T22:51:02.916+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T00:02:33.084+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T00:02:33.086+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T00:34:03.165+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-06T00:34:03.167+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-06T00:54:33.217+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T00:54:33.218+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T01:10:33.259+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T01:10:33.261+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T01:27:03.303+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-06T01:27:03.304+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 1ms (1 connections now open to localhost:57040)
+2017-12-06T02:17:03.428+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-06T02:17:03.429+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-06T02:25:33.452+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T02:25:33.457+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 5ms (1 connections now open to localhost:57042)
+2017-12-06T02:39:03.493+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-06T02:39:03.495+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-06T03:16:03.586+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T03:16:03.588+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T03:19:33.598+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-06T03:19:33.599+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 1ms (1 connections now open to localhost:57040)
+2017-12-06T03:50:33.678+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T03:50:33.680+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T04:13:22.459+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37018
+2017-12-06T04:13:22.461+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37018, took 2ms (3 connections now open to localhost:37018)
+2017-12-06T04:14:22.459+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37018 because the pool meets constraints; 2 connections to that host remain open
+2017-12-06T04:51:33.838+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T04:51:33.840+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T05:04:32.566+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37018
+2017-12-06T05:04:32.568+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37018, took 2ms (3 connections now open to localhost:37018)
+2017-12-06T05:05:32.567+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37018 because the pool meets constraints; 2 connections to that host remain open
+2017-12-06T05:07:33.879+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-06T05:07:33.881+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-06T05:09:12.575+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Connecting to localhost:37018
+2017-12-06T05:09:12.577+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Successfully connected to localhost:37018, took 1ms (3 connections now open to localhost:37018)
+2017-12-06T05:10:12.576+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37018 because the pool meets constraints; 2 connections to that host remain open
+2017-12-06T05:30:33.941+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T05:30:33.943+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T05:51:33.995+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T05:51:33.996+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-06T06:02:04.040+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-06T06:02:04.041+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-06T06:07:34.053+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57040
+2017-12-06T06:07:34.055+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57040, took 2ms (1 connections now open to localhost:57040)
+2017-12-06T06:25:34.101+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T06:25:34.103+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T07:24:34.260+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T07:24:34.264+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 4ms (1 connections now open to localhost:57042)
+2017-12-06T18:08:08.190+0900 I REPL     [ReplicationExecutor] Starting an election, since we've seen no PRIMARY in the past 10000ms
+2017-12-06T18:08:08.192+0900 I REPL     [ReplicationExecutor] conducting a dry run election to see if we could be elected
+2017-12-06T18:08:08.201+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:41300 #110 (16 connections now open)
+2017-12-06T18:08:08.203+0900 I NETWORK  [conn110] received client metadata from 127.0.0.1:41300 conn110: { driver: { name: "NetworkInterfaceASIO-Replication", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T18:08:08.208+0900 I REPL     [ReplicationExecutor] VoteRequester(term 6 dry run) received a yes vote from localhost:37019; response message: { term: 6, voteGranted: true, reason: "", ok: 1.0 }
+2017-12-06T18:08:08.208+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Ending connection to host localhost:37018 due to bad connection status; 0 connections to that host remain open
+2017-12-06T18:08:08.208+0900 I REPL     [ReplicationExecutor] dry election run succeeded, running for election
+2017-12-06T18:08:08.228+0900 I REPL     [replication-6] Restarting oplog query due to error: StaleTerm: Replication term of this node was stale; retry query. Last fetched optime (with hash): { ts: Timestamp 1512515104000|1, t: 6 }[8182899148238631140]. Restarts remaining: 3
+2017-12-06T18:08:08.228+0900 I REPL     [replication-6] Scheduled new oplog query Fetcher source: localhost:37018 database: local query: { find: "oplog.rs", filter: { ts: { $gte: Timestamp 1512515104000|1 } }, tailable: true, oplogReplay: true, awaitData: true, maxTimeMS: 60000, term: 7, readConcern: { afterOpTime: { ts: Timestamp 1512515104000|1, t: 6 } } } query metadata: { $replData: 1, $oplogQueryData: 1, $ssm: { $secondaryOk: true } } active: 1 timeout: 65000ms shutting down?: 0 first: 1 firstCommandScheduler: RemoteCommandRetryScheduler request: RemoteCommand 476450 -- target:localhost:37018 db:local cmd:{ find: "oplog.rs", filter: { ts: { $gte: Timestamp 1512515104000|1 } }, tailable: true, oplogReplay: true, awaitData: true, maxTimeMS: 60000, term: 7, readConcern: { afterOpTime: { ts: Timestamp 1512515104000|1, t: 6 } } } active: 1 callbackHandle.valid: 1 callbackHandle.cancelled: 0 attempt: 1 retryPolicy: RetryPolicyImpl maxAttempts: 1 maxTimeMillis: -1ms
+2017-12-06T18:08:08.228+0900 I REPL     [replication-6] Restarting oplog query due to error: StaleTerm: Replication term of this node was stale; retry query. Last fetched optime (with hash): { ts: Timestamp 1512515104000|1, t: 6 }[8182899148238631140]. Restarts remaining: 2
+2017-12-06T18:08:08.228+0900 I REPL     [replication-6] Scheduled new oplog query Fetcher source: localhost:37018 database: local query: { find: "oplog.rs", filter: { ts: { $gte: Timestamp 1512515104000|1 } }, tailable: true, oplogReplay: true, awaitData: true, maxTimeMS: 60000, term: 7, readConcern: { afterOpTime: { ts: Timestamp 1512515104000|1, t: 6 } } } query metadata: { $replData: 1, $oplogQueryData: 1, $ssm: { $secondaryOk: true } } active: 1 timeout: 65000ms shutting down?: 0 first: 1 firstCommandScheduler: RemoteCommandRetryScheduler request: RemoteCommand 476452 -- target:localhost:37018 db:local cmd:{ find: "oplog.rs", filter: { ts: { $gte: Timestamp 1512515104000|1 } }, tailable: true, oplogReplay: true, awaitData: true, maxTimeMS: 60000, term: 7, readConcern: { afterOpTime: { ts: Timestamp 1512515104000|1, t: 6 } } } active: 1 callbackHandle.valid: 1 callbackHandle.cancelled: 0 attempt: 1 retryPolicy: RetryPolicyImpl maxAttempts: 1 maxTimeMillis: -1ms
+2017-12-06T18:08:08.231+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Connecting to localhost:37018
+2017-12-06T18:08:08.237+0900 I ASIO     [NetworkInterfaceASIO-Replication-0] Successfully connected to localhost:37018, took 6ms (1 connections now open to localhost:37018)
+2017-12-06T18:08:08.239+0900 I REPL     [ReplicationExecutor] VoteRequester(term 7) received a no vote from localhost:37018 with reason "candidate's data is staler than mine"; response message: { term: 7, voteGranted: false, reason: "candidate's data is staler than mine", ok: 1.0 }
+2017-12-06T18:08:08.248+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Detected bad connection created at 1512461342030597 microSec, clearing pool for localhost:47018 of 0 connections
+2017-12-06T18:08:08.249+0900 I REPL     [ReplicationExecutor] VoteRequester(term 7) received a no vote from localhost:37019 with reason "already voted for another candidate this term"; response message: { term: 7, voteGranted: false, reason: "already voted for another candidate this term", ok: 1.0 }
+2017-12-06T18:08:08.249+0900 I REPL     [ReplicationExecutor] not becoming primary, we received insufficient votes
+2017-12-06T18:08:08.256+0900 I NETWORK  [replSetDistLockPinger] Marking host localhost:57041 as failed :: caused by :: NotMaster: Not primary while running findAndModify command on collection config.lockpings
+2017-12-06T18:08:08.258+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Dropping all pooled connections to localhost:47018(with timeout of 5 seconds)
+2017-12-06T18:08:08.258+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Ending connection to host localhost:47018(with timeout of 5 seconds) due to bad connection status; 0 connections to that host remain open
+2017-12-06T18:08:08.258+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Marking host localhost:47018 as failed :: caused by :: HostUnreachable: network error while attempting to run command 'ismaster' on host 'localhost:47018' 
+2017-12-06T18:08:08.258+0900 I NETWORK  [replSetDistLockPinger] Detected bad connection created at 1512455469646476 microSec, clearing pool for localhost:57041 of 0 connections
+2017-12-06T18:08:08.258+0900 I NETWORK  [replSetDistLockPinger] Dropping all pooled connections to localhost:57041(with timeout of 5 seconds)
+2017-12-06T18:08:08.258+0900 I NETWORK  [replSetDistLockPinger] Ending connection to host localhost:57041(with timeout of 5 seconds) due to bad connection status; 0 connections to that host remain open
+2017-12-06T18:08:08.261+0900 W REPL     [rsBackgroundSync] Fetcher stopped querying remote oplog with error: InvalidSyncSource: Sync source's last applied OpTime { ts: Timestamp 1512515104000|1, t: 6 } is not greater than our last fetched OpTime { ts: Timestamp 1512515104000|1, t: 6 }. Choosing new sync source.
+2017-12-06T18:08:08.267+0900 I REPL     [rsBackgroundSync] could not find member to sync from
+2017-12-06T18:08:08.262+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:08.262+0900 W NETWORK  [ReplicaSetMonitor-TaskExecutor-0] No primary detected for set s1
+2017-12-06T18:08:08.267+0900 I REPL     [ReplicationExecutor] Member localhost:37018 is now in state SECONDARY
+2017-12-06T18:08:08.272+0900 I REPL     [SyncSourceFeedback] SyncSourceFeedback error sending update to localhost:37018: InvalidSyncSource: Sync source was cleared. Was localhost:37018
+2017-12-06T18:08:08.767+0900 I NETWORK  [replSetDistLockPinger] Successfully connected to localhost:57041 (1 connections now open to localhost:57041 with a 5 second timeout)
+2017-12-06T18:08:08.767+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:09.269+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:09.774+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:10.276+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:10.778+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:11.278+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:11.780+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:12.281+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:12.782+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:13.283+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:13.784+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:14.285+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:14.787+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:15.288+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:15.788+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:16.289+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:16.790+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:17.291+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:17.792+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:18.293+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:18.794+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:19.168+0900 I REPL     [ReplicationExecutor] Starting an election, since we've seen no PRIMARY in the past 10000ms
+2017-12-06T18:08:19.168+0900 I REPL     [ReplicationExecutor] conducting a dry run election to see if we could be elected
+2017-12-06T18:08:19.168+0900 I REPL     [ReplicationExecutor] VoteRequester(term 7 dry run) received a yes vote from localhost:37019; response message: { term: 7, voteGranted: true, reason: "", ok: 1.0 }
+2017-12-06T18:08:19.168+0900 I REPL     [ReplicationExecutor] dry election run succeeded, running for election
+2017-12-06T18:08:19.171+0900 I REPL     [ReplicationExecutor] VoteRequester(term 8) received a yes vote from localhost:37019; response message: { term: 8, voteGranted: true, reason: "", ok: 1.0 }
+2017-12-06T18:08:19.171+0900 I REPL     [ReplicationExecutor] election succeeded, assuming primary role in term 8
+2017-12-06T18:08:19.171+0900 I REPL     [ReplicationExecutor] transition to PRIMARY
+2017-12-06T18:08:19.171+0900 I REPL     [ReplicationExecutor] Entering primary catch-up mode.
+2017-12-06T18:08:19.171+0900 I REPL     [ReplicationExecutor] Caught up to the latest optime known via heartbeats after becoming primary.
+2017-12-06T18:08:19.172+0900 I REPL     [ReplicationExecutor] Exited primary catch-up mode.
+2017-12-06T18:08:19.295+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:19.797+0900 W NETWORK  [replSetDistLockPinger] No primary detected for set csReplSet
+2017-12-06T18:08:20.242+0900 I REPL     [rsSync] transition to primary complete; database writes are now permitted
+2017-12-06T18:08:24.178+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:41388 #111 (17 connections now open)
+2017-12-06T18:08:24.178+0900 I NETWORK  [conn111] received client metadata from 127.0.0.1:41388 conn111: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T18:08:24.179+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:41390 #112 (18 connections now open)
+2017-12-06T18:08:24.179+0900 I NETWORK  [conn112] received client metadata from 127.0.0.1:41390 conn112: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T18:08:24.271+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:41406 #113 (19 connections now open)
+2017-12-06T18:08:24.272+0900 I NETWORK  [conn113] received client metadata from 127.0.0.1:41406 conn113: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T18:08:24.273+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:41408 #114 (20 connections now open)
+2017-12-06T18:08:24.274+0900 I NETWORK  [conn114] received client metadata from 127.0.0.1:41408 conn114: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T18:08:38.225+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 30 secs, remote host 127.0.0.1:37018)
+2017-12-06T18:08:38.226+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:37018 (1 connections now open to localhost:37018 with a 5 second timeout)
+2017-12-06T18:08:38.226+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Socket closed remotely, no longer connected (idle 30 secs, remote host 127.0.0.1:57018)
+2017-12-06T18:08:38.227+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:57018 (1 connections now open to localhost:57018 with a 5 second timeout)
+2017-12-06T18:08:38.271+0900 I NETWORK  [ReplicaSetMonitor-TaskExecutor-0] Successfully connected to localhost:47018 (1 connections now open to localhost:47018 with a 5 second timeout)
+2017-12-06T18:08:44.288+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:41612 #115 (21 connections now open)
+2017-12-06T18:08:44.289+0900 I NETWORK  [conn115] received client metadata from 127.0.0.1:41612 conn115: { driver: { name: "NetworkInterfaceASIO-ShardRegistry", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T18:09:06.212+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T18:09:06.214+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T18:09:08.205+0900 I -        [conn110] end connection 127.0.0.1:41300 (21 connections now open)
+2017-12-06T18:09:08.240+0900 I ASIO     [NetworkInterfaceASIO-RS-0] Ending idle connection to host localhost:37018 because the pool meets constraints; 1 connections to that host remain open
+2017-12-06T18:31:06.265+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-06T18:31:06.266+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-06T18:40:36.732+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T18:40:36.733+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-06T18:43:05.316+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:41890 #116 (21 connections now open)
+2017-12-06T18:43:05.317+0900 I NETWORK  [conn116] received client metadata from 127.0.0.1:41890 conn116: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T18:44:05.317+0900 I -        [conn114] end connection 127.0.0.1:41408 (21 connections now open)
+2017-12-06T18:46:06.741+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T18:46:06.742+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-06T18:52:06.751+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T18:52:06.753+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T19:23:05.393+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:41988 #117 (21 connections now open)
+2017-12-06T19:23:05.396+0900 I NETWORK  [conn117] received client metadata from 127.0.0.1:41988 conn117: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T19:24:05.393+0900 I -        [conn116] end connection 127.0.0.1:41890 (21 connections now open)
+2017-12-06T19:50:36.872+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T19:50:36.875+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 3ms (1 connections now open to localhost:57042)
+2017-12-06T19:56:05.456+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:49326 #118 (21 connections now open)
+2017-12-06T19:56:05.457+0900 I NETWORK  [conn118] received client metadata from 127.0.0.1:49326 conn118: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T19:57:05.456+0900 I -        [conn113] end connection 127.0.0.1:41406 (21 connections now open)
+2017-12-06T20:06:06.908+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T20:06:06.910+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T20:36:06.979+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T20:36:06.981+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-06T20:41:06.994+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-06T20:41:06.995+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-06T21:04:05.571+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:44278 #119 (21 connections now open)
+2017-12-06T21:04:05.572+0900 I NETWORK  [conn119] received client metadata from 127.0.0.1:44278 conn119: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-06T21:04:37.058+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-06T21:04:37.059+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-06T21:05:05.572+0900 I -        [conn112] end connection 127.0.0.1:41390 (21 connections now open)
+2017-12-06T21:19:07.094+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T21:19:07.095+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-06T21:43:37.146+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-06T21:43:37.150+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 4ms (1 connections now open to localhost:57041)
+2017-12-06T21:57:37.183+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T21:57:37.184+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-06T23:46:07.444+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-06T23:46:07.449+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 5ms (1 connections now open to localhost:57042)
+2017-12-07T00:00:30.939+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:46806 #120 (21 connections now open)
+2017-12-07T00:00:30.939+0900 I NETWORK  [conn120] received client metadata from 127.0.0.1:46806 conn120: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-07T00:01:30.940+0900 I -        [conn118] end connection 127.0.0.1:49326 (21 connections now open)
+2017-12-07T00:04:15.888+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:46836 #121 (21 connections now open)
+2017-12-07T00:04:15.888+0900 I NETWORK  [conn121] received client metadata from 127.0.0.1:46836 conn121: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-07T00:05:15.888+0900 I -        [conn117] end connection 127.0.0.1:41988 (21 connections now open)
+2017-12-07T00:56:37.606+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-07T00:56:37.610+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 4ms (1 connections now open to localhost:57041)
+2017-12-07T01:45:07.728+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-07T01:45:07.730+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-07T02:18:37.812+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-07T02:18:37.813+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-07T03:06:37.929+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-07T03:06:37.931+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-07T03:22:26.296+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:48546 #122 (21 connections now open)
+2017-12-07T03:22:26.296+0900 I NETWORK  [conn122] received client metadata from 127.0.0.1:48546 conn122: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-07T03:23:26.296+0900 I -        [conn111] end connection 127.0.0.1:41388 (21 connections now open)
+2017-12-07T03:41:08.029+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-07T03:41:08.031+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-07T04:01:08.078+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-07T04:01:08.080+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-07T04:19:08.127+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-07T04:19:08.128+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
+2017-12-07T05:18:36.535+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:49248 #123 (21 connections now open)
+2017-12-07T05:18:36.535+0900 I NETWORK  [conn123] received client metadata from 127.0.0.1:49248 conn123: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-07T05:19:36.535+0900 I -        [conn121] end connection 127.0.0.1:46836 (21 connections now open)
+2017-12-07T05:19:38.280+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-07T05:19:38.281+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 1ms (1 connections now open to localhost:57042)
+2017-12-07T05:21:06.543+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:49262 #124 (21 connections now open)
+2017-12-07T05:21:06.543+0900 I NETWORK  [conn124] received client metadata from 127.0.0.1:49262 conn124: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-07T05:22:06.543+0900 I -        [conn122] end connection 127.0.0.1:48546 (21 connections now open)
+2017-12-07T05:22:38.288+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-07T05:22:38.292+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 4ms (1 connections now open to localhost:57041)
+2017-12-07T05:58:08.377+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-07T05:58:08.379+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-07T05:58:36.612+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:49490 #125 (21 connections now open)
+2017-12-07T05:58:36.612+0900 I NETWORK  [conn125] received client metadata from 127.0.0.1:49490 conn125: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-07T05:59:36.613+0900 I -        [conn120] end connection 127.0.0.1:46806 (21 connections now open)
+2017-12-07T06:33:08.466+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-07T06:33:08.468+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-07T06:46:26.707+0900 I NETWORK  [thread1] connection accepted from 127.0.0.1:49734 #126 (21 connections now open)
+2017-12-07T06:46:26.710+0900 I NETWORK  [conn126] received client metadata from 127.0.0.1:49734 conn126: { driver: { name: "NetworkInterfaceASIO-RS", version: "3.4.10" }, os: { type: "Linux", name: "LinuxMint", architecture: "x86_64", version: "18.3" } }
+2017-12-07T06:47:26.707+0900 I -        [conn123] end connection 127.0.0.1:49248 (21 connections now open)
+2017-12-07T06:57:08.528+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-07T06:57:08.530+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 2ms (1 connections now open to localhost:57041)
+2017-12-07T07:13:08.570+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-07T07:13:08.571+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 1ms (1 connections now open to localhost:57041)
+2017-12-07T07:19:38.586+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57041
+2017-12-07T07:19:38.589+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57041, took 3ms (1 connections now open to localhost:57041)
+2017-12-07T07:37:38.632+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-07T07:37:38.632+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 0ms (1 connections now open to localhost:57042)
+2017-12-07T07:53:08.673+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Connecting to localhost:57042
+2017-12-07T07:53:08.675+0900 I ASIO     [NetworkInterfaceASIO-ShardRegistry-0] Successfully connected to localhost:57042, took 2ms (1 connections now open to localhost:57042)
